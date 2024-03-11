@@ -1,0 +1,2457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SyntaxEdit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SearchOptions>EntireScope SearchHiddenText</SearchOptions>
+  <BorderStyle>None</BorderStyle>
+  <Pages>
+    <DefaultPage>
+      <Header>
+        <Offset>
+          <X>0</X>
+          <Y>0</Y>
+        </Offset>
+      </Header>
+      <Footer>
+        <Offset>
+          <X>0</X>
+          <Y>0</Y>
+        </Offset>
+      </Footer>
+      <PageSize>
+        <Width>0</Width>
+        <Height>0</Height>
+      </PageSize>
+    </DefaultPage>
+  </Pages>
+  <DisplayStrings />
+  <Selection>
+    <Options>UseColors OverwriteBlocks SelectLineOnTripleClick CopyLineWhenEmpty SelectWordOnCtrlClick</Options>
+  </Selection>
+  <Gutter>
+    <LineNumbersForeColor>WindowText</LineNumbersForeColor>
+    <Options>PaintLineNumbers PaintBookMarks PaintLineModificators</Options>
+  </Gutter>
+  <Margin>
+    <Visible>false</Visible>
+  </Margin>
+  <LineStyles />
+  <LineSeparator />
+  <Printing>
+    <Footer>
+      <Offset>
+        <X>0</X>
+        <Y>0</Y>
+      </Offset>
+    </Footer>
+    <Header>
+      <Offset>
+        <X>0</X>
+        <Y>0</Y>
+      </Offset>
+    </Header>
+  </Printing>
+  <WhiteSpace />
+  <TextSource>
+    <Position>
+      <X>0</X>
+      <Y>1733</Y>
+    </Position>
+    <Lexer>
+      <Scheme>
+        <Author>Quantum Whale, LLC.</Author>
+        <Copyright>Copyright (c) 2004 - 2014 Quantum Whale LLC.</Copyright>
+        <FileType>gas</FileType>
+        <Version>1.5</Version>
+        <Styles>
+          <Style>
+            <Name>idents</Name>
+            <ForeColor>ControlText</ForeColor>
+          </Style>
+          <Style>
+            <Name>numbers</Name>
+            <ForeColor>ControlText</ForeColor>
+          </Style>
+          <Style>
+            <Name>reswords</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>comments</Name>
+            <ForeColor>Green</ForeColor>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>xmlcomments</Name>
+            <ForeColor>Gray</ForeColor>
+          </Style>
+          <Style>
+            <Name>symbols</Name>
+            <ForeColor>WindowText</ForeColor>
+          </Style>
+          <Style>
+            <Name>whitespace</Name>
+            <ForeColor>WindowText</ForeColor>
+          </Style>
+          <Style>
+            <Name>strings</Name>
+            <ForeColor>Maroon</ForeColor>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>directives</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>htmlparams</Name>
+            <ForeColor>Red</ForeColor>
+          </Style>
+          <Style>
+            <Name>syntax errors</Name>
+            <ForeColor>Red</ForeColor>
+          </Style>
+          <Style>
+            <Name>codes nippets</Name>
+            <ForeColor>Black</ForeColor>
+            <BackColor>255:180:228:180</BackColor>
+          </Style>
+          <Style>
+            <Name>GabReservedWords</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabTokenWithBrackets</Name>
+            <ForeColor>Gray</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabFunctionIntrinsicDebug</Name>
+            <ForeColor>White</ForeColor>
+            <BackColor>Red</BackColor>
+            <FontStyle>Bold</FontStyle>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>GabVariable</Name>
+            <ForeColor>Teal</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabVariableSystemDefined</Name>
+            <ForeColor>Teal</ForeColor>
+            <FontStyle>Bold Italic</FontStyle>
+          </Style>
+          <Style>
+            <Name>GabGui</Name>
+            <ForeColor>OrangeRed</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabProgramSubStartEnd</Name>
+            <ForeColor>Black</ForeColor>
+            <BackColor>LightGray</BackColor>
+            <FontStyle>Bold</FontStyle>
+            <PlainText>true</PlainText>
+          </Style>
+        </Styles>
+      </Scheme>
+    </Lexer>
+    <TextStrings>
+      <Lines>
+        <string>Program.Sub.ScreenSU.Start</string>
+        <string>Gui.frmMainWO..Create</string>
+        <string>Gui.frmMainWO..Caption("Work Order Dashboard")</string>
+        <string>Gui.frmMainWO..Size(15360,10695)</string>
+        <string>Gui.frmMainWO..MinX(15360)</string>
+        <string>Gui.frmMainWO..MinY(10695)</string>
+        <string>Gui.frmMainWO..Position(0,0)</string>
+        <string>Gui.frmMainWO..BackColor(-2147483633)</string>
+        <string>Gui.frmMainWO..MousePointer(0)</string>
+        <string>Gui.frmMainWO..Event(Resize,frmMainWO_Resize)</string>
+        <string>Gui.frmMainWO..Event(UnLoad,Unload)</string>
+        <string>Gui.frmMainWO.tabWO.Create(Tab)</string>
+        <string>Gui.frmMainWO.tabWO.Size(15120,9090)</string>
+        <string>Gui.frmMainWO.tabWO.Position(15,1050)</string>
+        <string>Gui.frmMainWO.tabWO.Tabs(2)</string>
+        <string>Gui.frmMainWO.tabWO.SetTab(0)</string>
+        <string>Gui.frmMainWO.tabWO.Caption("All Open WOs")</string>
+        <string>Gui.frmMainWO.tabWO.SetTab(1)</string>
+        <string>Gui.frmMainWO.tabWO.Caption("Due Today &amp; Past Due")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.Create(GsGridControl)</string>
+        <string>Gui.frmMainWO.GsGCAllWO.Size(15000,8865)</string>
+        <string>Gui.frmMainWO.GsGCAllWO.Position(0,0)</string>
+        <string>Gui.frmMainWO.GsGCAllWO.Parent("tabWO",0)</string>
+        <string>Gui.frmMainWO.GsGCAllWO.Event(CellValueChanged,GsGCAllWO_CellValueChanged)</string>
+        <string>Gui.frmMainWO.GsGCAllWO.Event(RowCellClick,GsGCAllWO_RowCellClick1)</string>
+        <string>Gui.frmMainWO.GsGCDueWO.Create(GsGridControl)</string>
+        <string>Gui.frmMainWO.GsGCDueWO.Size(15000,8655)</string>
+        <string>Gui.frmMainWO.GsGCDueWO.Position(0,0)</string>
+        <string>Gui.frmMainWO.GsGCDueWO.Parent("tabWO",1)</string>
+        <string>Gui.frmMainWO.GsGCDueWO.Event(RowCellClick,GsGCDueWO_RowCellClick)</string>
+        <string>Gui.frmMainWO.GsGCDueWO.Event(CellValueChanged,GsGCDueWO_CellValueChanged)</string>
+        <string>Gui.frmMainWO.framePermissions.Create(Frame)</string>
+        <string>Gui.frmMainWO.framePermissions.Size(3720,450)</string>
+        <string>Gui.frmMainWO.framePermissions.Position(11325,615)</string>
+        <string>Gui.frmMainWO.optEdit.Create(Option)</string>
+        <string>Gui.frmMainWO.optEdit.Enabled(False)</string>
+        <string>Gui.frmMainWO.optEdit.Size(645,195)</string>
+        <string>Gui.frmMainWO.optEdit.Position(810,150)</string>
+        <string>Gui.frmMainWO.optEdit.Caption("Edit")</string>
+        <string>Gui.frmMainWO.optEdit.Parent("framePermissions")</string>
+        <string>Gui.frmMainWO.optEdit.Event(Click,optEdit_Click)</string>
+        <string>Gui.frmMainWO.optIssue.Create(Option)</string>
+        <string>Gui.frmMainWO.optIssue.Size(795,195)</string>
+        <string>Gui.frmMainWO.optIssue.Position(1470,150)</string>
+        <string>Gui.frmMainWO.optIssue.Caption("Issue")</string>
+        <string>Gui.frmMainWO.optIssue.Enabled(False)</string>
+        <string>Gui.frmMainWO.optIssue.Event(Click,optIssue_Click)</string>
+        <string>Gui.frmMainWO.optIssue.Parent("framePermissions")</string>
+        <string>Gui.frmMainWO.optWiptoFG.Create(Option)</string>
+        <string>Gui.frmMainWO.optWiptoFG.Size(1110,255)</string>
+        <string>Gui.frmMainWO.optWiptoFG.Position(2265,120)</string>
+        <string>Gui.frmMainWO.optWiptoFG.Caption("Wip to FG")</string>
+        <string>Gui.frmMainWO.optWiptoFG.Enabled(False)</string>
+        <string>Gui.frmMainWO.optWiptoFG.Event(Click,optWiptoFG_Click)</string>
+        <string>Gui.frmMainWO.optWiptoFG.Parent("framePermissions")</string>
+        <string>Gui.frmMainWO.optView.Create(Option)</string>
+        <string>Gui.frmMainWO.optView.Size(690,195)</string>
+        <string>Gui.frmMainWO.optView.Position(75,150)</string>
+        <string>Gui.frmMainWO.optView.Caption("View")</string>
+        <string>Gui.frmMainWO.optView.Parent("framePermissions")</string>
+        <string>Gui.frmMainWO.frameButtons.Create(Frame)</string>
+        <string>Gui.frmMainWO.frameButtons.Size(3735,600)</string>
+        <string>Gui.frmMainWO.frameButtons.Position(11310,75)</string>
+        <string>Gui.frmMainWO.cmdNew.Create(Button)</string>
+        <string>Gui.frmMainWO.cmdNew.Size(840,375)</string>
+        <string>Gui.frmMainWO.cmdNew.Position(1860,165)</string>
+        <string>Gui.frmMainWO.cmdNew.Caption("New WO")</string>
+        <string>Gui.frmMainWO.cmdNew.Event(Click,cmdNew_Click)</string>
+        <string>Gui.frmMainWO.cmdNew.Enabled(False)</string>
+        <string>Gui.frmMainWO.cmdNew.Parent("frameButtons")</string>
+        <string>Gui.frmMainWO.cmdRefresh.Create(Button)</string>
+        <string>Gui.frmMainWO.cmdRefresh.Size(840,375)</string>
+        <string>Gui.frmMainWO.cmdRefresh.Position(60,165)</string>
+        <string>Gui.frmMainWO.cmdRefresh.Caption("REFRESH")</string>
+        <string>Gui.frmMainWO.cmdRefresh.Event(Click,cmdRefresh_Click)</string>
+        <string>Gui.frmMainWO.cmdRefresh.Parent("frameButtons")</string>
+        <string>Gui.frmMainWO.cmdExport.Create(Button)</string>
+        <string>Gui.frmMainWO.cmdExport.Size(840,375)</string>
+        <string>Gui.frmMainWO.cmdExport.Position(960,165)</string>
+        <string>Gui.frmMainWO.cmdExport.Caption("Export")</string>
+        <string>Gui.frmMainWO.cmdExport.Event(Click,cmdExport_Click)</string>
+        <string>Gui.frmMainWO.cmdExport.Parent("frameButtons")</string>
+        <string>Gui.frmMainWO.cmdWOSO.Create(Button)</string>
+        <string>Gui.frmMainWO.cmdWOSO.Enabled(False)</string>
+        <string>Gui.frmMainWO.cmdWOSO.Size(840,375)</string>
+        <string>Gui.frmMainWO.cmdWOSO.Position(2760,165)</string>
+        <string>Gui.frmMainWO.cmdWOSO.Parent("frameButtons")</string>
+        <string>Gui.frmMainWO.cmdWOSO.Caption("WO - SO")</string>
+        <string>Gui.frmMainWO.cmdWOSO.Event(Click,cmdWOSO_Click)</string>
+        <string>Gui.frmMainWO.picGSSLogo.Create(PictureBox)</string>
+        <string>Gui.frmMainWO.picGSSLogo.Size(4125,960)</string>
+        <string>Gui.frmMainWO.picGSSLogo.Position(5520,45)</string>
+        <string>Gui.frmMainWO.picGSSLogo.Event(DblClick,picGSSLogo_DblClick)</string>
+        <string>Gui.frmMainWO.pbStatus.Create(ProgressBar)</string>
+        <string>Gui.frmMainWO.pbStatus.Visible(False)</string>
+        <string>Gui.frmMainWO.pbStatus.Size(3735,255)</string>
+        <string>Gui.frmMainWO.pbStatus.Position(75,375)</string>
+        <string>Gui.frmMainWO.lblStatus.Create(Label,"***Change***",False,3765,255,0,75,135,True,0,"Arial",8,-986896,0)</string>
+        <string>Gui.frmWeb..Create</string>
+        <string>Gui.frmWeb..Caption("Global Shop Solutions - Web Sites")</string>
+        <string>Gui.frmWeb..Size(4035,1695)</string>
+        <string>Gui.frmWeb..MinX(0)</string>
+        <string>Gui.frmWeb..MinY(0)</string>
+        <string>Gui.frmWeb..Position(0,0)</string>
+        <string>Gui.frmWeb..BackColor(-2147483633)</string>
+        <string>Gui.frmWeb..MousePointer(0)</string>
+        <string>Gui.frmWeb..MaxButton(False)</string>
+        <string>Gui.frmWeb..Sizeable(False)</string>
+        <string>Gui.frmWeb..Event(UnLoad,frmWeb_UnLoad)</string>
+        <string>Gui.frmWeb..MinButton(False)</string>
+        <string>Gui.frmWeb.cmdGSS.Create(Button)</string>
+        <string>Gui.frmWeb.cmdGSS.Size(3615,375)</string>
+        <string>Gui.frmWeb.cmdGSS.Position(120,45)</string>
+        <string>Gui.frmWeb.cmdGSS.Caption("Global Shop Solutions")</string>
+        <string>Gui.frmWeb.cmdGSS.Event(Click,cmdGSS_Click)</string>
+        <string>Gui.frmWeb.cmdServ.Create(Button)</string>
+        <string>Gui.frmWeb.cmdServ.Size(3615,375)</string>
+        <string>Gui.frmWeb.cmdServ.Position(120,450)</string>
+        <string>Gui.frmWeb.cmdServ.Caption("ServiceWeb")</string>
+        <string>Gui.frmWeb.cmdServ.Event(Click,cmdServ_Click)</string>
+        <string>Gui.frmWeb.cmdUpd.Create(Button)</string>
+        <string>Gui.frmWeb.cmdUpd.Size(3615,375)</string>
+        <string>Gui.frmWeb.cmdUpd.Position(120,855)</string>
+        <string>Gui.frmWeb.cmdUpd.Caption("GSS Updates")</string>
+        <string>Gui.frmWeb.cmdUpd.Event(Click,cmdUpd_Click)</string>
+        <string>Gui.Frm_Schedule..Create</string>
+        <string>Gui.Frm_Schedule..Size(2985,2865)</string>
+        <string>Gui.Frm_Schedule..MinX(0)</string>
+        <string>Gui.Frm_Schedule..MinY(0)</string>
+        <string>Gui.Frm_Schedule..Position(0,0)</string>
+        <string>Gui.Frm_Schedule..BackColor(-2147483633)</string>
+        <string>Gui.Frm_Schedule..MousePointer(0)</string>
+        <string>Gui.Frm_Schedule..Caption("Schedule WO")</string>
+        <string>Gui.Frm_Schedule..MaxButton(False)</string>
+        <string>Gui.Frm_Schedule..Sizeable(False)</string>
+        <string>Gui.Frm_Schedule..Event(UnLoad,Frm_Schedule_UnLoad)</string>
+        <string>Gui.Frm_Schedule.cmdSchedule.Create(Button)</string>
+        <string>Gui.Frm_Schedule.cmdSchedule.Size(1125,375)</string>
+        <string>Gui.Frm_Schedule.cmdSchedule.Position(120,1830)</string>
+        <string>Gui.Frm_Schedule.cmdSchedule.Caption("Schedule")</string>
+        <string>Gui.Frm_Schedule.cmdSchedule.FontSize(8)</string>
+        <string>Gui.Frm_Schedule.cmdSchedule.Event(Click,cmdSchedule_Click)</string>
+        <string>Gui.Frm_Schedule.chkBckwrd.Create(CheckBox)</string>
+        <string>Gui.Frm_Schedule.chkBckwrd.Size(1260,360)</string>
+        <string>Gui.Frm_Schedule.chkBckwrd.Position(120,960)</string>
+        <string>Gui.Frm_Schedule.chkBckwrd.Caption("Backward")</string>
+        <string>Gui.Frm_Schedule.chkBckwrd.FontSize(8)</string>
+        <string>Gui.Frm_Schedule.chkBckwrd.Event(Click,chkBckwrd_Click)</string>
+        <string>Gui.Frm_Schedule.lbl1.Create(Label,"Choose Schedule Direction",True,2205,255,0,90,180,True,0,"Arial",8,-2147483633,0)</string>
+        <string>Gui.Frm_Schedule.chkForward.Create(CheckBox)</string>
+        <string>Gui.Frm_Schedule.chkForward.Size(1365,360)</string>
+        <string>Gui.Frm_Schedule.chkForward.Position(120,1380)</string>
+        <string>Gui.Frm_Schedule.chkForward.Caption("Forward")</string>
+        <string>Gui.Frm_Schedule.chkForward.FontSize(8)</string>
+        <string>Gui.Frm_Schedule.chkForward.ForeColor(0)</string>
+        <string>Gui.Frm_Schedule.chkForward.Event(Click,chkForward_Click)</string>
+        <string>Gui.Frm_Schedule.lblWO.Create(Label,"",True,1935,255,0,120,630,True,0,"Arial",8,-2147483633,1)</string>
+        <string>Gui.Frm_Schedule.lblWO.BorderStyle(2)</string>
+        <string>Program.Sub.ScreenSU.End</string>
+        <string />
+        <string>Program.Sub.Preflight.Start</string>
+        <string>Variable.Global.sJob.Declare(String)</string>
+        <string>Variable.Global.sSuffix.Declare(String)</string>
+        <string>V.Global.iGAPID.Declare(Long,4242)</string>
+        <string>Program.Sub.Preflight.End</string>
+        <string />
+        <string>Program.Sub.Main.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Main_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sIcon.Declare</string>
+        <string>V.Local.sGssLogo.Declare</string>
+        <string>	F.Intrinsic.String.Build("{0}\GAB\GAS\gss2.ico",V.Caller.PluginsDir,v.Local.sIcon)</string>
+        <string>	F.Intrinsic.String.Build("{0}\GAB\GAS\GAB_GSS_Logo_Green_Dash.png",V.Caller.PluginsDir,V.Local.sGssLogo)</string>
+        <string>	Gui.frmWeb..Icon(V.Local.sIcon)</string>
+        <string>	Gui.frmMainWO..Icon(V.Local.sIcon)</string>
+        <string>	Gui.frmMainWO.picGSSLogo.Picture(V.Local.sGssLogo)</string>
+        <string>	</string>
+        <string>	F.Intrinsic.Control.CallSub(setanchors)</string>
+        <string>	Gui.frmMainWO.optView.Value(True)</string>
+        <string>	F.Intrinsic.Control.CallSub(checkpermissions)</string>
+        <string>	</string>
+        <string>	F.ODBC.Connection!con.OpenConnection(V.Ambient.PDSN,V.Ambient.PUser,V.Ambient.PPass,300)</string>
+        <string>	Gui.frmMainWO.tabWO.SetTab(0) 	</string>
+        <string>	Gui.frmMainWO..Show</string>
+        <string>	F.Intrinsic.Control.CallSub(checktable)</string>
+        <string>	F.Intrinsic.Control.CallSub(disablecontrols)</string>
+        <string>	Gui.frmMainWO.pbStatus.Value(5)</string>
+        <string>	F.Intrinsic.Control.CallSub(loaddtallwo)</string>
+        <string>	Gui.frmMainWO.pbStatus.Value(40)</string>
+        <string>	F.Intrinsic.Control.CallSub(loaddtduewo)</string>
+        <string>	Gui.frmMainWO.pbStatus.Value(90)</string>
+        <string>	Gui.frmMainWO.pbStatus.Value(100)</string>
+        <string>	f.Intrinsic.Control.CallSub(enablecontols)</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("Main_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4242_SF_OpenJobReview.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	Function.Intrinsic.Control.CallSub(unload)	</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.Main.End</string>
+        <string />
+        <string>Program.Sub.frmMainWO_Resize.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("frmMainWO_Resize_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string />
+        <string />
+        <string>	v.Local.iWidth.Declare</string>
+        <string>	v.Local.iHeight.Declare</string>
+        <string>	</string>
+        <string>	F.Intrinsic.Math.Sub(V.Screen.frmMainWO!tabWO.Width,120,v.Local.iWidth)</string>
+        <string>	F.Intrinsic.Math.Sub(V.Screen.frmMainWO!tabWO.Height,435,V.Local.iHeight)</string>
+        <string>	Gui.frmMainWO.GsGCAllWO.Size(V.Local.iWidth,v.Local.iHeight)</string>
+        <string>	Gui.frmMainWO.GsGCDueWO.Size(V.Local.iWidth,v.Local.iHeight)</string>
+        <string />
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("frmMainWO_Resize_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4242_SF_OpenJobReview.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	Function.Intrinsic.Control.CallSub(unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.frmMainWO_Resize.End</string>
+        <string />
+        <string>Program.Sub.cmdRefresh_Click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmdRefresh_Click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string />
+        <string />
+        <string>	F.Intrinsic.Control.CallSub(disablecontrols)</string>
+        <string>	Gui.frmMainWO.pbStatus.Value(0)</string>
+        <string>	Gui.frmMainWO.pbStatus.Value(5)</string>
+        <string>	F.Intrinsic.Control.CallSub(loaddtallwo)</string>
+        <string>	Gui.frmMainWO.pbStatus.Value(40)</string>
+        <string>	F.Intrinsic.Control.CallSub(loaddtduewo)</string>
+        <string>	Gui.frmMainWO.pbStatus.Value(90)</string>
+        <string>	Gui.frmMainWO.pbStatus.Value(100)</string>
+        <string>	F.Intrinsic.Control.CallSub(enablecontols)</string>
+        <string />
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("cmdRefresh_Click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4242_SF_OpenJobReview.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	Function.Intrinsic.Control.CallSub(unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.cmdRefresh_Click.End</string>
+        <string />
+        <string>Program.Sub.GsGCDueWO_RowCellClick.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("GsGCDueWO_RowCellClick_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>v.Local.stemp.Declare</string>
+        <string>v.Local.stemp2.Declare</string>
+        <string>v.Local.stemp3.Declare</string>
+        <string>V.Local.sParams.Declare</string>
+        <string>V.Local.iDayTrf.Declare</string>
+        <string>V.Local.iMonthTrf.Declare</string>
+        <string>V.Local.iYearTrf.Declare</string>
+        <string>'F.Intrinsic.Control.CallSub(optchecker)</string>
+        <string>F.Intrinsic.Control.SelectCase(v.Args.column)</string>
+        <string>	F.Intrinsic.Control.Case("FLAG_PRINT")</string>
+        <string>		Gui.frmMainWO.GsGCDueWO.getCellValue("gvDueWO",3,v.Args.RowIndex,v.Local.sTemp3)</string>
+        <string>		Gui.frmMainWO.GsGCDueWO.getCellValue("gvDueWO",4,v.Args.RowIndex,v.Local.sTemp2)</string>
+        <string>		F.Intrinsic.Control.If(v.Screen.frmMainWO!optEdit.Value,=,True)</string>
+        <string>			Gui.frmMainWO.GsGCdueWO.setCellValue("gvdueWO",0,v.Args.RowIndex,true)</string>
+        <string>			F.Intrinsic.String.Concat(V.Local.sTemp3,"!*!",V.Local.sTemp2,"!*!","1811",V.Local.sTemp)</string>
+        <string>			F.Global.General.CallWrapperSync(900100,V.Local.sTemp)</string>
+        <string>			f.Intrinsic.Control.ExitSub</string>
+        <string>		F.Intrinsic.Control.ElseIf(v.Screen.frmMainWO!optWiptoFG.Value,=,True)</string>
+        <string>			Gui.frmMainWO.GsGCdueWO.setCellValue("gvdueWO",0,v.Args.RowIndex,true)</string>
+        <string>			F.Intrinsic.String.Concat(V.Local.sTemp3,"!*!",V.Local.sTemp2,"!*!","1811",V.Local.sTemp)</string>
+        <string>			F.Global.General.CallWrapperSync(900100,V.Local.sTemp)</string>
+        <string>			f.Intrinsic.Control.ExitSub</string>
+        <string>		f.Intrinsic.Control.EndIf</string>
+        <string>		f.Intrinsic.Control.ExitSub</string>
+        <string>		</string>
+        <string>	f.Intrinsic.Control.Case("JOB")</string>
+        <string>		Gui.frmMainWO.GsGCdueWO.GetCellValue("gvdueWO",3,v.Args.RowIndex,v.Local.sTemp)</string>
+        <string>		Gui.frmMainWO.GsGCdueWO.GetCellValue("gvdueWO",4,v.Args.RowIndex,V.Local.stemp2)</string>
+        <string>		F.Intrinsic.Control.If(V.Screen.frmMainWO!optEdit.Value,=,"True")</string>
+        <string>			'Build Call Wrapper String</string>
+        <string>			F.Intrinsic.String.Build("{0}!*!{1}!*!O",V.Local.sTemp,V.Local.sTemp2,V.Local.sTemp)</string>
+        <string>			F.Intrinsic.Control.CallSub(disablecontrols)</string>
+        <string>			F.Global.General.CallWrapperSync(2009,V.Local.sTemp)</string>
+        <string>			F.Intrinsic.Control.CallSub(enablecontols)</string>
+        <string>		F.Intrinsic.Control.ElseIf(V.Screen.frmMainWO!optIssue.Value,=,"True")</string>
+        <string>			'Build Call Wrapper String</string>
+        <string>			F.Intrinsic.String.Build("{0}!*!{1}!*! !*! !*! !*! !*! ",V.Local.sTemp,V.Local.sTemp2,V.Local.sTemp)</string>
+        <string>			F.Intrinsic.Control.CallSub(disablecontrols)</string>
+        <string>			F.Global.General.CallWrapperSync(450150,V.Local.sTemp)</string>
+        <string>			F.Intrinsic.Control.CallSub(enablecontols)</string>
+        <string>		F.Intrinsic.Control.ElseIf(V.Screen.frmMainWO!optWiptoFG.Value,=,"True")</string>
+        <string>			'Build Call Wrapper String</string>
+        <string>			F.Intrinsic.Date.Day(V.Ambient.Date,V.Local.iDayTrf)</string>
+        <string>			F.Intrinsic.Date.Month(V.Ambient.Date,V.Local.iMonthTrf)</string>
+        <string>			F.Intrinsic.Date.Year(V.Ambient.Date,V.Local.iYearTrf)</string>
+        <string>			F.Intrinsic.String.Build("{0}!*!{1}!*!{2}!*!OS!*!!*!!*!!*!!*!!*!!*!{3}!*!{4}!*!16!*!03!*!02!*!!*!!*!!*!!*!!*!!*!!*!!*!!*!",V.Caller.CompanyCode,V.Caller.Terminal,V.Caller.Caller,V.Local.sTemp,V.Local.sTemp2,V.Local.sTemp)</string>
+        <string>			F.Intrinsic.Control.CallSub(disablecontrols)			</string>
+        <string>			F.Global.General.CallWrapperSync(2003,V.Local.sTemp)</string>
+        <string>			F.Intrinsic.Control.CallSub(enablecontols)</string>
+        <string>		F.Intrinsic.Control.Else</string>
+        <string>			'Build Call Wrapper String</string>
+        <string>			F.Intrinsic.String.Concat("7","!*!",V.Local.sTemp,"!*!",V.Local.sTemp2,"!*!","A",V.Local.sTemp)</string>
+        <string>			F.Intrinsic.Control.CallSub(disablecontrols)</string>
+        <string>			F.Global.General.CallWrapperSync(450000,V.Local.sTemp)</string>
+        <string>			F.Intrinsic.Control.CallSub(enablecontols)</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>	</string>
+        <string>	F.Intrinsic.Control.Case("SUFFIX")</string>
+        <string>		Gui.frmMainWO.GsGCdueWO.GetCellValue("gvdueWO",3,v.Args.RowIndex,v.Local.sTemp)</string>
+        <string>		Gui.frmMainWO.GsGCdueWO.GetCellValue("gvdueWO",4,v.Args.RowIndex,V.Local.stemp2)</string>
+        <string>		F.Intrinsic.Control.If(V.Screen.frmMainWO!optEdit.Value,=,"True")</string>
+        <string>			'Build Call Wrapper String</string>
+        <string>			F.Intrinsic.String.Build("{0}!*!{1}!*!O",V.Local.sTemp,V.Local.sTemp2,V.Local.sTemp)</string>
+        <string>			F.Intrinsic.Control.CallSub(disablecontrols)</string>
+        <string>			F.Global.General.CallWrapperSync(2009,V.Local.sTemp)</string>
+        <string>			F.Intrinsic.Control.CallSub(enablecontols)		</string>
+        <string>		F.Intrinsic.Control.ElseIf(V.Screen.frmMainWO!optIssue.Value,=,"True")</string>
+        <string>			'Build Call Wrapper String</string>
+        <string>			F.Intrinsic.String.Build("{0}!*!{1}!*! !*! !*! !*! !*! ",V.Local.sTemp,V.Local.sTemp2,V.Local.sTemp)</string>
+        <string>			F.Intrinsic.Control.CallSub(disablecontrols)</string>
+        <string>			F.Global.General.CallWrapperSync(450150,V.Local.sTemp)</string>
+        <string>			F.Intrinsic.Control.CallSub(enablecontols)</string>
+        <string>		F.Intrinsic.Control.ElseIf(V.Screen.frmMainWO!optWiptoFG.Value,=,"True")</string>
+        <string>			'Build Call Wrapper String</string>
+        <string>			F.Intrinsic.Date.Day(V.Ambient.Date,V.Local.iDayTrf)</string>
+        <string>			F.Intrinsic.Date.Month(V.Ambient.Date,V.Local.iMonthTrf)</string>
+        <string>			F.Intrinsic.Date.Year(V.Ambient.Date,V.Local.iYearTrf)</string>
+        <string>			F.Intrinsic.String.Build("{0}!*!{1}!*!{2}!*!OS!*!!*!!*!!*!!*!!*!!*!{3}!*!{4}!*!16!*!03!*!02!*!!*!!*!!*!!*!!*!!*!!*!!*!!*!",V.Caller.CompanyCode,V.Caller.Terminal,V.Caller.Caller,V.Local.sTemp,V.Local.sTemp2,V.Local.sTemp)</string>
+        <string>			F.Intrinsic.Control.CallSub(disablecontrols)</string>
+        <string>			F.Global.General.CallWrapperSync(2003,V.Local.sTemp)</string>
+        <string>			F.Intrinsic.Control.CallSub(enablecontols)</string>
+        <string>		F.Intrinsic.Control.Else</string>
+        <string>			'Build Call Wrapper String</string>
+        <string>			F.Intrinsic.String.Concat("7","!*!",V.Local.sTemp,"!*!",V.Local.sTemp2,"!*!","A",V.Local.sTemp)</string>
+        <string>			F.Intrinsic.Control.CallSub(disablecontrols)</string>
+        <string>			F.Global.General.CallWrapperSync(450000,V.Local.sTemp)</string>
+        <string>			F.Intrinsic.Control.CallSub(enablecontols)</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>	</string>
+        <string>	F.Intrinsic.Control.Case("PART")</string>
+        <string>		F.Intrinsic.Control.If(V.Screen.frmMainWO!optView.Value,=,True)</string>
+        <string>			Gui.frmMainWO.GsGCdueWO.getcellValue("gvdueWO",6,v.Args.RowIndex,v.Local.stemp)</string>
+        <string>			Gui.frmMainWO.GsGCdueWO.getcellValue("gvdueWO",7,v.Args.RowIndex,v.Local.stemp2)</string>
+        <string>			F.Intrinsic.String.Build("{0}!*!{1}!*!O",V.Local.stemp,V.Local.stemp2,V.Local.sParams)</string>
+        <string>			F.Intrinsic.Control.CallSub(disablecontrols)</string>
+        <string>			F.Global.General.CallWrapperSync(300011,V.Local.sParams)</string>
+        <string>			F.Intrinsic.Control.CallSub(enablecontols)</string>
+        <string>		F.Intrinsic.Control.Else</string>
+        <string>			Gui.frmMainWO.GsGCdueWO.getcellValue("gvdueWO",6,v.Args.RowIndex,v.Local.stemp)</string>
+        <string>			Gui.frmMainWO.GsGCdueWO.getcellValue("gvdueWO",7,v.Args.RowIndex,v.Local.stemp2)</string>
+        <string>			F.Intrinsic.String.Build("{0}!*!{1}!*!M",V.Local.stemp,V.Local.stemp2,V.Local.sParams)</string>
+        <string>			F.Intrinsic.Control.CallSub(disablecontrols)</string>
+        <string>			F.Global.General.CallWrapperSync(300011,V.Local.sParams)</string>
+        <string>			F.Intrinsic.Control.CallSub(enablecontols)</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>	Function.Intrinsic.Control.Case("Sched")</string>
+        <string>		Gui.frmMainWO.GsGCdueWO.getcellValue("gvdueWO",3,v.Args.RowIndex,v.Global.sJob)</string>
+        <string>		Gui.frmMainWO.GsGCdueWO.getcellValue("gvdueWO",4,v.Args.RowIndex,v.Global.sSuffix)</string>
+        <string>		Function.Intrinsic.Control.If(v.Global.sSuffix.Trim,&lt;&gt;,"")</string>
+        <string>			F.Intrinsic.String.Build("WO: {0}-{1}",v.Global.sJob,v.Global.sSuffix,v.Local.sParams) </string>
+        <string>		Function.Intrinsic.Control.Else </string>
+        <string>			F.Intrinsic.String.Build("WO: {0}",v.Global.sJob,v.Local.sParams) </string>
+        <string>		Function.Intrinsic.Control.EndIf</string>
+        <string>		Gui.Frm_Schedule.lblWO.Caption(v.Local.sParams) </string>
+        <string>		Function.Intrinsic.Control.CallSub(disablecontrols)</string>
+        <string>		Gui.Frm_Schedule..Show</string>
+        <string>		Gui.Frm_Schedule..AlwaysOnTop(true)</string>
+        <string>Function.Intrinsic.Control.EndSelect</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("GsGCDueWO_RowCellClick_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4242_SF_OpenJobReview.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	Function.Intrinsic.Control.CallSub(unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.GsGCDueWO_RowCellClick.End</string>
+        <string />
+        <string>Program.Sub.setAnchors.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("setAnchors_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>'0 - None</string>
+        <string>'1 - Top</string>
+        <string>'2 - Bottom</string>
+        <string>'4 - Left</string>
+        <string>'8 - Right</string>
+        <string>Gui.frmMainWO.picGSSLogo.Anchor(1)</string>
+        <string>Gui.frmMainWO.frameButtons.Anchor(9)</string>
+        <string>Gui.frmMainWO.framePermissions.Anchor(9)</string>
+        <string>Gui.frmMainWO.tabWO.Anchor(15)</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("setAnchors_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4242_SF_OpenJobReview.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	Function.Intrinsic.Control.CallSub(unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.setAnchors.End</string>
+        <string />
+        <string>Program.Sub.loadDTAllWO.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("loadDTAllWO_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.bDictExists.Declare</string>
+        <string>Gui.frmMainWO.lblStatus.Caption("Loading Work Orders....")</string>
+        <string>Gui.frmMainWO.pbStatus.Value(10)</string>
+        <string>F.Intrinsic.Control.If(V.DataTable.dtAllWO.Exists,=,True)</string>
+        <string>	F.Data.DataTable.Close("dtAllWO")</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>	</string>
+        <string>F.Data.Dictionary.Exists("dIndirect",V.Local.bDictExists)</string>
+        <string>F.Intrinsic.Control.If(V.Local.bDictExists,=,True)</string>
+        <string>	F.Data.Dictionary.Close("dIndirect")</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.Data.Dictionary.CreateFromSQL("dIndirect","con","SELECT DISTINCT CONCAT(JOB,SUFFIX) AS JS,CONVERT(IF('' = '',1,0),SQL_BIT) FROM IND_LBR_ACCTS;")</string>
+        <string>F.Data.Dictionary.SetDefaultReturn("dIndirect",False)</string>
+        <string>V.Local.sSQL.Declare(String,"SELECT Distinct CASE When FLAG_WO_PRTD = 'Y' OR FLAG_WO_PRTD = 'R' THEN CONVERT(1,SQL_BIT) WHEN FLAG_WO_PRTD !='Y' Or Flag_WO_PRTD != 'R' Then convert(0,SQL_BIT) END AS FLAG_PRINT,CASE WHEN FLAG_WO_PRTD ='X' OR FLAG_WO_PRTD = 'R' THEN CONVERT(1,SQL_BIT) When FLAG_WO_PRTD != 'X' OR FLAG_WO_PRTD != 'R' THEN CONVERT (0, SQL_BIT) END AS FLAG_RELD,CASE WHEN GWR.REL_DATE = '1900-1-1' THEN null ELSE REL_DATE END AS REL_DATE ,JOB, SUFFIX, NAME_CUSTOMER AS CUST_NAME, PART, LOCATION, PRODUCT_LINE,DESCRIPTION, DATE_OPENED, DATE_DUE,VJH.SCHEDULED_DUE_DATE, (select top 1 VJO.DATE_START FROM V_JOB_OPERATIONS VJO WHERE VJO.LMO='L' AND VJO.JOB=VJH.JOB AND VJO.SUFFIX=VJH.SUFFIX) AS DATE_START,  NUM_HOURS,(VJH.QTY_ORDER-VJH.QTY_COMPLETED) AS QTY_LEFT, NOTES AS 'WO_NOTE',VWUF.USER_6 AS 'WO_NOTE2',CONCAT(JOB, SUFFIX) AS JS FROM V_JOB_HEADER VJH LEFT JOIN V_CUSTOMER_MASTER VCM ON VJH.CUSTOMER=VCM.CUSTOMER LEFT JOIN V_WO_USER_FLDS VWUF ON VJH.JOB = VWUF.JOB AND VJH.SUFFIX = VWUF.SUFFIX LEFT JOIN GCG_4242_WODSH_RELDT GWR ON GWR.SUFFIX=VJH.SUFFIX AND GWR.JOB = VJH.JOB LEFT JOIN GCG_4242_WO_NOTES A ON VJH.JOB = A.JOB AND VJH.SUFFIX = A.SUFFIX WHERE DATE_CLOSED='1900-1-1' ORDER BY DATE_DUE ASC;")</string>
+        <string>F.Data.DataTable.CreateFromSQL("dtAllWO","con",v.Local.sSQL,true)</string>
+        <string>F.Data.DataTable.AddColumn("dtAllwo","sched","String")</string>
+        <string>F.Data.DataTable.AddColumn("dtAllWO","IND_FLAG",Boolean)</string>
+        <string>F.Data.DataTable.FillFromDictionary("dtAllWO","dIndirect","JS","IND_FLAG")</string>
+        <string>Gui.frmMainWO.pbStatus.Value(20)</string>
+        <string>F.Intrinsic.Control.CallSub(loaddvgallwo)</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("loadDTAllWO_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4242_SF_OpenJobReview.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	Function.Intrinsic.Control.CallSub(unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.loadDTAllWO.End</string>
+        <string />
+        <string>Program.Sub.loadDTDueWO.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("loadDTDueWO_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.bDictExists.Declare</string>
+        <string>	</string>
+        <string>	Gui.frmMainWO.pbStatus.Value(50)</string>
+        <string>	</string>
+        <string>	F.Intrinsic.Control.If(V.DataTable.dtdueWO.Exists,=,True)</string>
+        <string>		F.Data.DataTable.Close("dtdueWO")</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>	</string>
+        <string>	F.Data.Dictionary.Exists("dIndirect2",V.Local.bDictExists)</string>
+        <string>	F.Intrinsic.Control.If(V.Local.bDictExists,=,True)</string>
+        <string>		F.Data.Dictionary.Close("dIndirect2")</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>	</string>
+        <string>	F.Data.Dictionary.CreateFromSQL("dIndirect2","con","SELECT DISTINCT CONCAT(JOB,SUFFIX) AS JS,CONVERT(IF('' = '',1,0),SQL_BIT) FROM IND_LBR_ACCTS;")</string>
+        <string>	F.Data.Dictionary.SetDefaultReturn("dIndirect2",False)</string>
+        <string>	</string>
+        <string>	V.Local.sSQL.Declare(String,"SELECT Distinct CASE When FLAG_WO_PRTD = 'Y' OR FLAG_WO_PRTD = 'R' THEN CONVERT(1,SQL_BIT) WHEN FLAG_WO_PRTD !='Y' Or Flag_WO_PRTD != 'R' Then convert(0,SQL_BIT) END AS FLAG_PRINT,CASE WHEN FLAG_WO_PRTD ='X' OR FLAG_WO_PRTD = 'R' THEN CONVERT(1,SQL_BIT) When FLAG_WO_PRTD != 'X' OR FLAG_WO_PRTD != 'R' THEN CONVERT (0, SQL_BIT) END AS FLAG_RELD,CASE WHEN GWR.REL_DATE = '1900-1-1' THEN null ELSE REL_DATE END AS REL_DATE ,JOB, SUFFIX, NAME_CUSTOMER AS CUST_NAME, PART, LOCATION, PRODUCT_LINE,DESCRIPTION, DATE_OPENED, DATE_DUE, VJH.SCHEDULED_DUE_DATE,(select top 1 VJO.DATE_START FROM V_JOB_OPERATIONS VJO WHERE VJO.LMO='L' AND VJO.JOB=VJH.JOB AND VJO.SUFFIX=VJH.SUFFIX) AS DATE_START, NUM_HOURS,(VJH.QTY_ORDER-VJH.QTY_COMPLETED) AS QTY_LEFT, NOTES AS 'WO_NOTE',VWUF.USER_6 AS 'WO_NOTE2',CONCAT(JOB, SUFFIX) AS JS FROM V_JOB_HEADER VJH LEFT JOIN V_CUSTOMER_MASTER VCM ON VJH.CUSTOMER=VCM.CUSTOMER LEFT JOIN V_WO_USER_FLDS VWUF ON VJH.JOB = VWUF.JOB AND VJH.SUFFIX = VWUF.SUFFIX LEFT JOIN GCG_4242_WODSH_RELDT GWR ON GWR.SUFFIX=VJH.SUFFIX AND GWR.JOB = VJH.JOB LEFT JOIN GCG_4242_WO_NOTES A ON VJH.JOB = A.JOB AND VJH.SUFFIX = A.SUFFIX WHERE DATE_CLOSED='1900-1-1' AND DATE_DUE &lt;= CURDATE() ORDER BY JOB;")</string>
+        <string>	F.Data.DataTable.CreateFromSQL("dtdueWO","con",v.Local.sSQL,true)</string>
+        <string>	F.Data.DataTable.AddColumn("dtdueWO","IND_FLAG",Boolean)</string>
+        <string>	F.Data.DataTable.AddColumn("dtDueWO","Sched","String")</string>
+        <string>	F.Data.DataTable.FillFromDictionary("dtdueWO","dIndirect2","JS","IND_FLAG")</string>
+        <string>	</string>
+        <string>	Gui.frmMainWO.pbStatus.Value(60)</string>
+        <string>	F.Intrinsic.Control.CallSub(loaddvgdueWO)</string>
+        <string />
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("loadDTDueWO_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4242_SF_OpenJobReview.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	Function.Intrinsic.Control.CallSub(unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.loadDTDueWO.End</string>
+        <string />
+        <string>Program.Sub.loadDVGAllWO.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("loadDVGAllWO_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.iRet.Declare</string>
+        <string>V.Local.iCnt.Declare</string>
+        <string>V.Local.sSQL.Declare</string>
+        <string>Gui.frmMainWO.pbStatus.Value(30)	</string>
+        <string>F.Intrinsic.Control.If(V.DataView.dtAllWO!dvAllWO.Exists,=,True)</string>
+        <string>	F.Data.DataView.Close("dtAllWO","dvAllWO")</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>'Create DataView</string>
+        <string>F.Data.DataView.Create("DTALLWO","dvAllWO",22,"IND_FLAG &lt;&gt; True","DATE_DUE ASC")</string>
+        <string />
+        <string>Gui.frmMainWO.GsGCAllWO.AddGridViewFromDataView("gvAllWO","dtAllWO","dvAllWO")</string>
+        <string>'Sched Button section.</string>
+        <string>gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","Sched","visibleindex",6) </string>
+        <string>GUI.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","Sched","Fixed","Left")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.ColumnEdit("gvAllWo","Sched","EditorButton","Sched WO")</string>
+        <string>'Gui.frmMainWo.GsGCAllWO.SetColumnProperty("gvAllWo","Sched","ReadOnly",True)</string>
+        <string>'GUI.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","Sched","AllowEdit",False) </string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWo","Sched","Caption", "Schedule WO")</string>
+        <string />
+        <string>Gui.frmMainWO.GsGCAllWO.SetGridViewProperty("gvAllWO","MultiSelect",True)</string>
+        <string>Gui.frmMainWO.GsGCAllWO.setGridViewProperty("gvAllWO","AllowSort",True)</string>
+        <string>Gui.frmMainWO.GsGCAllWO.setGridViewProperty("gvAllWO","AllowFilter",True)</string>
+        <string>Gui.frmMainWO.GsGCAllWO.setGridViewProperty("gvAllWO","OptionsDetailShowDetailTabs",False)</string>
+        <string>Gui.frmMainWO.GsGCAllWO.setGridViewProperty("gvAllWO","OptionsViewShowGroupPanel",True)</string>
+        <string />
+        <string>'SetColumnProperties per User</string>
+        <string>'F.Intrinsic.String.Build("SELECT A.ID,B.FIELD_NAME,B.CAPTION,B.FIXED,A.VISIBLE,A.COL_ORDER FROM GAB_DASH_USERS A JOIN GAB_DASH_FIELDS B ON B.ID = A.FIELDID WHERE GAPID = {0} AND TAB_INDEX = {1} AND GS_USER = '{2}' ORDER BY GAPID;",V.Global.iGAPID,0,V.Caller.User,V.Local.sSQL)</string>
+        <string>'F.ODBC.Connection!con.OpenRecordsetRO("rstProp",V.Local.sSQL)</string>
+        <string>'F.Intrinsic.Control.DoUntil(V.ODBC.con!rstProp.EOF,=,True)</string>
+        <string>'	Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWo",V.ODBC.con!rstProp.FieldValTrim!FIELD_NAME,"Visible",V.ODBC.con!rstProp.FieldValBoolean!VISIBLE)</string>
+        <string>'	F.Intrinsic.Control.If(V.ODBC.con!rstProp.FieldVal!VISIBLE,=,"True")</string>
+        <string>'		Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWo",V.ODBC.con!rstProp.FieldValTrim!FIELD_NAME,"VisibleIndex",V.ODBC.con!rstProp.FieldValTrim!COL_ORDER)</string>
+        <string>'	F.Intrinsic.Control.EndIf</string>
+        <string>'F.ODBC.con!rstProp.MoveNext</string>
+        <string>'F.Intrinsic.Control.Loop</string>
+        <string>'f.ODBC.con!rstProp.Close</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","JS","Visible",False)</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","IND_FLAG","Visible",False)</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","FLAG_PRINT","Caption","Printed")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","FLAG_RELD","Caption","Released")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","REL_DATE","Caption","Rel Date")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","JOB","Caption","Job")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","SUFFIX","Caption","Suf.")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","CUST_NAME","Caption","Cust Name")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","PART","Caption","Part")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","LOCATION","Caption","Loc")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","PRODUCT_LINE","Caption","PL")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","DESCRIPTION","Caption","Description")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","DATE_OPENED","Caption","Opened Dt")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","DATE_DUE","Caption","WO Due Dt")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","SCHEDULED_DUE_DATE","Caption","Sched Due Dt")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","DATE_START","Caption","1st Lbr St Dt")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","NUM_HOURS","Caption","Act. Hrs.")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","QTY_LEFT","Caption","Qty Rem")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","WO_NOTE","Caption","Notes")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","WO_NOTE2","Caption","User Field 6 (70 Characters)")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","FLAG_PRINT","ReadOnly",True)</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","FLAG_PRINT","AllowEdit",False)</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","FLAG_RELD","ReadOnly",True)</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","FLAG_RELD","AllowEdit",False)</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","WO_NOTE","AllowEdit",True)</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","WO_NOTE","ReadOnly",False)</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","WO_NOTE2","AllowEdit",True)</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","WO_NOTE2","ReadOnly",False)</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","CUST_NAME","AllowEdit",false)</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","PART","AllowEdit",false)</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","REL_DATE","AllowEdit",false)</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","JOB","AllowEdit",false)</string>
+        <string>GUI.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","SUFFIX","AllowEdit",false)</string>
+        <string>GUI.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","LOCATION","AllowEdit",false)</string>
+        <string>GUI.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","PRODUCT_LINE","AllowEdit",false)</string>
+        <string>GUI.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","DATE_OPENED","AllowEdit",false)</string>
+        <string>GUI.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","DATE_DUE","AllowEdit",false)</string>
+        <string>GUI.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","SCHEDULED_DUE_DATE","AllowEdit",false)</string>
+        <string>GUI.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","DATE_START","AllowEdit",false)</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","NUM_HOURS","AllowEdit",false)</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","QTY_LEFT","AllowEdit",false)</string>
+        <string>GUI.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","JOB","CELLFORECOLOR","Blue")</string>
+        <string>GUI.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","PART","CELLFORECOLOR","Blue")</string>
+        <string>GUI.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","SUFFIX","CELLFORECOLOR","Blue")</string>
+        <string>GUI.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","WO_NOTE","CellBackColor","LightYellow")</string>
+        <string>GUI.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","WO_NOTE2","CellBackColor","LightYellow")</string>
+        <string />
+        <string>GUI.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","FLAG_PRINT","Fixed","Left")</string>
+        <string>GUI.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","FLAG_RELD","Fixed","Left")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWo","REL_DATE","Fixed","Left")</string>
+        <string>GUI.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","JOB","Fixed","Left")</string>
+        <string>GUI.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","SUFFIX","Fixed","Left")</string>
+        <string />
+        <string>Gui.frmMainWO.GsGCAllWO.setColumnProperty("gvAllWO","FLAG_PRINT","HEADERHALIGNMENT","CENTER")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.setColumnProperty("gvAllWO","FLAG_RELD","HEADERHALIGNMENT","CENTER")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.setColumnProperty("gvAllWO","JOB","HEADERHALIGNMENT","CENTER")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.setColumnProperty("gvAllWO","SUFFIX","HEADERHALIGNMENT","CENTER")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.setColumnProperty("gvAllWO","REL_DATE","HEADERHALIGNMENT","CENTER")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.setColumnProperty("gvAllWO","LOCATION","HEADERHALIGNMENT","CENTER")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.setColumnProperty("gvAllWO","PRODUCT_LINE","HEADERHALIGNMENT","CENTER")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.setColumnProperty("gvAllWO","DATE_OPENED","HEADERHALIGNMENT","CENTER")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.setColumnProperty("gvAllWO","DATE_DUE","HEADERHALIGNMENT","CENTER")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.setColumnProperty("gvAllWO","SCHEDULED_DUE_DATE","HEADERHALIGNMENT","CENTER")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.setColumnProperty("gvAllWO","DATE_START","HEADERHALIGNMENT","CENTER")</string>
+        <string />
+        <string>Gui.frmMainWO.GsGCAllWO.setColumnProperty("gvAllWO","FLAG_PRINT","CElLHALIGNMENT","CENTER")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.setColumnProperty("gvAllWO","FLAG_RELD","CElLHALIGNMENT","CENTER")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.setColumnProperty("gvAllWO","JOB","CElLHALIGNMENT","CENTER")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.setColumnProperty("gvAllWO","SUFFIX","CElLHALIGNMENT","CENTER")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.setColumnProperty("gvAllWO","REL_DATE","CElLHALIGNMENT","CENTER")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.setColumnProperty("gvAllWO","LOCATION","CElLHALIGNMENT","CENTER")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.setColumnProperty("gvAllWO","PRODUCT_LINE","CElLHALIGNMENT","CENTER")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.setColumnProperty("gvAllWO","DATE_OPENED","CElLHALIGNMENT","CENTER")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.setColumnProperty("gvAllWO","DATE_DUE","CElLHALIGNMENT","CENTER")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.setColumnProperty("gvAllWO","SCHEDULED_DUE_DATE","CElLHALIGNMENT","CENTER")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.setColumnProperty("gvAllWO","DATE_START","CElLHALIGNMENT","CENTER")</string>
+        <string />
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","FLAG_PRINT","MinWidth","50")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","FLAG_RELD","MinWidth","55")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","REL_DATE","MinWidth","63")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","JOB","MinWidth","50")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","SUFFIX","MinWidth","36")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","CUST_NAME","MinWidth","200")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","PART","MinWidth","150")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","LOCATION","MinWidth","32")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","PRODUCT_LINE","MinWidth","25")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","DESCRIPTION","MinWidth","220")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","DATE_OPENED","MinWidth","63")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","DATE_DUE","MinWidth","63")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","SCHEDULED_DUE_DATE","MinWidth","75")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","DATE_START","MinWidth","69")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","NUM_HOURS","MinWidth","90")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","QTY_LEFT","MinWidth","90")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","WO_NOTE","MinWidth","300")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","WO_NOTE2","MinWidth","300")</string>
+        <string />
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","DATE_OPENED","DisplayCustomDatetime","d")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","DATE_DUE","DisplayCustomDatetime","d")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","SCHEDULED_DUE_DATE","DisplayCustomDatetime","d")</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","DATE_START","DisplayCustomDatetime","d")</string>
+        <string />
+        <string>F.Intrinsic.Control.For(V.Local.iCnt,0,V.DataTable.dtAllWO.RowCount--,2)</string>
+        <string>	Gui.frmMainWO.GsGCAllWO.SetRowAppearance("gvAllWO",V.Local.iCnt,"BackColor","AliceBlue")</string>
+        <string>F.Intrinsic.Control.Next(V.Local.iCnt)</string>
+        <string />
+        <string>Gui.frmMainWO.GsGCAllWO.MainView("gvAllWO")</string>
+        <string />
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("loadDVGAllWO_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4242_SF_OpenJobReview.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	Function.Intrinsic.Control.CallSub(unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.loadDVGAllWO.End</string>
+        <string />
+        <string>Program.Sub.GsGCAllWO_CellValueChanged.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("GsGCAllWO_CellValueChanged_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.cellValue.Declare(Boolean)</string>
+        <string>V.Local.sTemp.Declare(STRING)</string>
+        <string>V.Local.sTemp2.Declare(STRING)</string>
+        <string>V.Local.sTemp3.Declare(STRING)</string>
+        <string>v.Local.column1.Declare(STRING)</string>
+        <string>v.Local.Row.Declare(Long)</string>
+        <string>v.Local.sline.Declare(STRING)</string>
+        <string>v.Local.nulldate.Declare(DATE)</string>
+        <string>v.Local.sWO.Declare</string>
+        <string>v.Local.sSuf.Declare</string>
+        <string>V.Local.sSQL.Declare</string>
+        <string>V.Local.sText.Declare</string>
+        <string>V.Local.sTextTbl.Declare</string>
+        <string />
+        <string>f.Intrinsic.Date.DateSerial(1900,1,1,v.Local.nulldate)</string>
+        <string>Gui.frmMainWO.GsGCAllWO.getCellValue("gvAllWO",3,v.Args.RowIndex,v.Local.sTemp3)</string>
+        <string>Gui.frmMainWO.GsGCAllWO.getCellValue("gvAllWO",4,v.Args.RowIndex,v.Local.sTemp2)</string>
+        <string>F.Intrinsic.Control.SelectCase(V.Args.column)</string>
+        <string>	F.Intrinsic.Control.Case("FLAG_RELD")</string>
+        <string>		F.Intrinsic.String.Concat("SELECT * FROM GCG_4242_WODSH_RELDT WHERE JOB = '",v.Local.sTemp3,"' AND SUFFIX = '",v.Local.sTemp2,"'",v.Local.sline)</string>
+        <string>		F.ODBC.Connection!con.OpenRecordsetRW("rstSave",V.Local.sline)</string>
+        <string>		F.Intrinsic.Control.If(V.ODBC.con!rstSave.EOF,=,True)</string>
+        <string>			F.ODBC.con!rstSave.AddNew</string>
+        <string>			F.ODBC.con!rstSave.Set!JOB(v.Local.sTemp3)</string>
+        <string>			F.ODBC.con!rstSave.Set!SUFFIX(v.Local.sTemp2)</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>		F.ODBC.con!rstSave.Set!USERID(v.Caller.USER)</string>
+        <string>		F.Intrinsic.Control.If(v.Args.Value,=,False)</string>
+        <string>			f.Intrinsic.String.Concat("UPDATE JOB_HEADER SET FLAG_WO_PRTD = CASE WHEN FLAG_WO_PRTD = 'X' Then '' WHEN FLAG_WO_PRTD = 'R' Then 'Y' END WHERE JOB = '",v.Local.sTemp3,"' AND SUFFIX ='",v.Local.sTemp2,"'",v.Local.sline)</string>
+        <string>			f.ODBC.Connection!con.Execute(v.Local.sline)</string>
+        <string>			F.ODBC.con!rstSave.Set!REL_DATE(v.Local.nulldate)</string>
+        <string>			Gui.frmMainWO.GsGCAllWO.setCellValue("gvAllWO",2,v.Args.RowIndex,v.Local.nulldate)</string>
+        <string>		F.Intrinsic.Control.Else</string>
+        <string>			f.Intrinsic.String.Concat("UPDATE JOB_HEADER SET FLAG_WO_PRTD = CASE WHEN FLAG_WO_PRTD = '' Then 'X' WHEN FLAG_WO_PRTD = 'Y' Then 'R' END WHERE JOB = '",v.Local.sTemp3,"' AND SUFFIX ='",v.Local.sTemp2,"'",v.Local.sLine)</string>
+        <string>			f.ODBC.Connection!con.Execute(v.Local.sline)</string>
+        <string>			F.ODBC.con!rstSave.Set!REL_DATE(v.Ambient.Date)</string>
+        <string>			GUI.frmMainWO.GsGCAllWO.setcellvalue("gvAllWO",2,v.Args.rowIndex,v.Ambient.Date)</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>		F.ODBC.con!rstSave.Update</string>
+        <string>		F.ODBC.Con!rstSave.Close</string>
+        <string />
+        <string>		f.Intrinsic.Control.ExitSub</string>
+        <string>	F.Intrinsic.Control.Case("WO_NOTE")</string>
+        <string>		Gui.frmMainWO.GsGCAllWO.GetCellValue("gvAllWO",3,V.Args.RowIndex,V.Local.sWO)</string>
+        <string>		Gui.frmMainWO.GsGCAllWO.GetCellValue("gvAllWO",4,V.Args.RowIndex,V.Local.sSuf)</string>
+        <string>		F.Intrinsic.String.Replace(V.Args.Value,"'","''",V.Local.sTextTbl)</string>
+        <string>		F.Intrinsic.String.Build("SELECT * FROM GCG_4242_WO_NOTES WHERE JOB = '{0}' AND SUFFIX = '{1}';",V.Local.sWO,V.Local.sSuf,V.Local.sSQL)</string>
+        <string>		F.ODBC.Connection!con.OpenRecordsetRW("rstNotes",V.Local.sSQL)</string>
+        <string>		F.Intrinsic.Control.If(V.ODBC.con!rstNotes.EOF,=,True)</string>
+        <string>			F.Intrinsic.String.Build("INSERT INTO GCG_4242_WO_NOTES(JOB,SUFFIX,NOTES) VALUES('{0}','{1}','{2}');",V.Local.sWO,V.Local.sSuf,V.Local.sTextTbl,V.Local.sSQL)</string>
+        <string>			F.ODBC.Connection!con.Execute(V.Local.sSQL)</string>
+        <string>		F.Intrinsic.Control.Else</string>
+        <string>			F.Intrinsic.String.Build("UPDATE GCG_4242_WO_NOTES SET NOTES = '{0}' WHERE JOB = '{1}' AND SUFFIX = '{2}';",V.Local.sTextTbl,V.Local.sWO,V.Local.sSuf,V.Local.sSQL)</string>
+        <string>			F.ODBC.Connection!con.Execute(V.Local.sSQL)</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>		F.ODBC.con!rstNotes.Close</string>
+        <string>		F.Intrinsic.Control.CallSub(checknote,"WO",V.Local.sWO,"Suf",V.Local.sSuf,"Note",V.Args.VALUE,"GV","gvAllWO","WO_Note","WO_NOTE")</string>
+        <string>		</string>
+        <string>	F.Intrinsic.Control.Case("WO_NOTE2")</string>
+        <string>		Gui.frmMainWO.GsGCAllWO.GetCellValue("gvAllWO",3,V.Args.RowIndex,V.Local.sWO)</string>
+        <string>		Gui.frmMainWO.GsGCAllWO.GetCellValue("gvAllWO",4,V.Args.RowIndex,V.Local.sSuf)</string>
+        <string>		F.Intrinsic.String.Left(V.Args.Value,70,V.Local.sText)</string>
+        <string>		F.Intrinsic.String.Replace(V.Local.sText,"'","''",V.Local.sTextTbl)</string>
+        <string>		F.Intrinsic.String.Build("SELECT * FROM WO_USER_FLDS WHERE JOB = '{0}' AND SUFFIX = '{1}';",V.Local.sWO,V.Local.sSuf,V.Local.sSQL)</string>
+        <string>		F.ODBC.Connection!con.OpenRecordsetRW("rstNotes",V.Local.sSQL)</string>
+        <string>		F.Intrinsic.Control.If(V.ODBC.con!rstNotes.EOF,=,True)</string>
+        <string>			F.Intrinsic.String.Build("INSERT INTO WO_USER_FLDS(JOB,SUFFIX,USER_6) VALUES('{0}','{1}','{2}');",V.Local.sWO,V.Local.sSuf,V.Local.sTextTbl,V.Local.sSQL)</string>
+        <string>			F.ODBC.Connection!con.Execute(V.Local.sSQL)</string>
+        <string>		F.Intrinsic.Control.Else</string>
+        <string>			F.Intrinsic.String.Build("UPDATE WO_USER_FLDS SET USER_6 = '{0}' WHERE JOB = '{1}' AND SUFFIX = '{2}';",V.Local.sTextTbl,V.Local.sWO,V.Local.sSuf,V.Local.sSQL)</string>
+        <string>			F.ODBC.Connection!con.Execute(V.Local.sSQL)</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>		F.ODBC.con!rstNotes.Close</string>
+        <string>		F.Intrinsic.Control.CallSub(checknote,"WO",V.Local.sWO,"Suf",V.Local.sSuf,"Note",V.Local.sText,"GV","gvAllWO","WO_Note","WO_NOTE2")</string>
+        <string>F.Intrinsic.Control.EndSelect</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("GsGCAllWO_CellValueChanged_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4242_SF_OpenJobReview.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	Function.Intrinsic.Control.CallSub(unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.GsGCAllWO_CellValueChanged.End</string>
+        <string />
+        <string>Program.Sub.GsGCDueWO_CellValueChanged.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("GsGCDueWO_CellValueChanged_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string />
+        <string />
+        <string>V.Local.cellValue.Declare(Boolean)</string>
+        <string>V.Local.sTemp.Declare(STRING)</string>
+        <string>V.Local.sTemp2.Declare(STRING)</string>
+        <string>V.Local.sTemp3.Declare(STRING)</string>
+        <string>v.Local.column1.Declare(STRING)</string>
+        <string>v.Local.Row.Declare(Long)</string>
+        <string>v.Local.sline.Declare(STRING)</string>
+        <string>v.Local.nulldate.Declare(DATE)</string>
+        <string>v.Local.sWO.Declare</string>
+        <string>v.Local.sSuf.Declare</string>
+        <string>V.Local.sSQL.Declare</string>
+        <string>V.Local.sText.Declare</string>
+        <string>V.Local.sTextTbl.Declare</string>
+        <string />
+        <string>f.Intrinsic.Date.DateSerial(1900,1,1,v.Local.nulldate)</string>
+        <string>Gui.frmMainWO.GsGCDueWO.getCellValue("gvDueWO",3,v.Args.RowIndex,v.Local.sTemp3)</string>
+        <string>Gui.frmMainWO.GsGCDueWO.getCellValue("gvDueWO",4,v.Args.RowIndex,v.Local.sTemp2)</string>
+        <string>F.Intrinsic.Control.SelectCase(V.Args.column)</string>
+        <string>	F.Intrinsic.Control.Case("FLAG_RELD")</string>
+        <string>		F.Intrinsic.String.Concat("SELECT * FROM GCG_4242_WODSH_RELDT WHERE JOB = '",v.Local.sTemp3,"' AND SUFFIX = '",v.Local.sTemp2,"'",v.Local.sline)</string>
+        <string>		F.ODBC.Connection!con.OpenRecordsetRW("rstSave",V.Local.sline)</string>
+        <string>		F.Intrinsic.Control.If(V.ODBC.con!rstSave.EOF,=,True)</string>
+        <string>			F.ODBC.con!rstSave.AddNew</string>
+        <string>			F.ODBC.con!rstSave.Set!JOB(v.Local.sTemp3)</string>
+        <string>			F.ODBC.con!rstSave.Set!SUFFIX(v.Local.sTemp2)</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>		F.ODBC.con!rstSave.Set!USERID(v.Caller.USER)</string>
+        <string>		F.Intrinsic.Control.If(v.Args.Value,=,False)</string>
+        <string>			f.Intrinsic.String.Concat("UPDATE JOB_HEADER SET FLAG_WO_PRTD = CASE WHEN FLAG_WO_PRTD = 'X' Then '' WHEN FLAG_WO_PRTD = 'R' Then 'Y' END WHERE JOB = '",v.Local.sTemp3,"' AND SUFFIX ='",v.Local.sTemp2,"'",v.Local.sline)</string>
+        <string>			f.ODBC.Connection!con.Execute(v.Local.sline)</string>
+        <string>			F.ODBC.con!rstSave.Set!REL_DATE(v.Local.nulldate)</string>
+        <string>			Gui.frmMainWO.GsGCDueWO.setCellValue("gvDueWO",2,v.Args.RowIndex,v.Local.nulldate)</string>
+        <string>		F.Intrinsic.Control.Else</string>
+        <string>			f.Intrinsic.String.Concat("UPDATE JOB_HEADER SET FLAG_WO_PRTD = CASE WHEN FLAG_WO_PRTD = '' Then 'X' WHEN FLAG_WO_PRTD = 'Y' Then 'R' END WHERE JOB = '",v.Local.sTemp3,"' AND SUFFIX ='",v.Local.sTemp2,"'",v.Local.sLine)</string>
+        <string>			f.ODBC.Connection!con.Execute(v.Local.sline)</string>
+        <string>			F.ODBC.con!rstSave.Set!REL_DATE(v.Ambient.Date)</string>
+        <string>			GUI.frmMainWO.GsGCDueWO.setcellvalue("gvDueWO",2,v.Args.rowIndex,v.Ambient.Date)</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>		F.ODBC.con!rstSave.Update</string>
+        <string>		F.ODBC.Con!rstSave.Close</string>
+        <string />
+        <string>		f.Intrinsic.Control.ExitSub</string>
+        <string>	F.Intrinsic.Control.Case("WO_NOTE")</string>
+        <string>		Gui.frmMainWO.GsGCDueWO.GetCellValue("gvDueWO",3,V.Args.RowIndex,V.Local.sWO)</string>
+        <string>		Gui.frmMainWO.GsGCDueWO.GetCellValue("gvDueWO",4,V.Args.RowIndex,V.Local.sSuf)</string>
+        <string>		F.Intrinsic.String.Replace(V.Args.Value,"'","''",V.Local.sTextTbl)</string>
+        <string>		F.Intrinsic.String.Build("SELECT * FROM GCG_4242_WO_NOTES WHERE JOB = '{0}' AND SUFFIX = '{1}';",V.Local.sWO,V.Local.sSuf,V.Local.sSQL)</string>
+        <string>		F.ODBC.Connection!con.OpenRecordsetRW("rstNotes",V.Local.sSQL)</string>
+        <string>		F.Intrinsic.Control.If(V.ODBC.con!rstNotes.EOF,=,True)</string>
+        <string>			F.Intrinsic.String.Build("INSERT INTO GCG_4242_WO_NOTES(JOB,SUFFIX,NOTES) VALUES('{0}','{1}','{2}');",V.Local.sWO,V.Local.sSuf,V.Local.sTextTbl,V.Local.sSQL)</string>
+        <string>			F.ODBC.Connection!con.Execute(V.Local.sSQL)</string>
+        <string>		F.Intrinsic.Control.Else</string>
+        <string>			F.Intrinsic.String.Build("UPDATE GCG_4242_WO_NOTES SET NOTES = '{0}' WHERE JOB = '{1}' AND SUFFIX = '{2}';",V.Local.sTextTbl,V.Local.sWO,V.Local.sSuf,V.Local.sSQL)</string>
+        <string>			F.ODBC.Connection!con.Execute(V.Local.sSQL)</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>		F.ODBC.con!rstNotes.Close</string>
+        <string>		F.Intrinsic.Control.CallSub(checknote,"WO",V.Local.sWO,"Suf",V.Local.sSuf,"Note",V.Args.VALUE,"GV","gvDueWO","RowIndex",V.Args.RowIndex,"WO_Note","WO_NOTE")</string>
+        <string>	F.Intrinsic.Control.Case("WO_NOTE2")</string>
+        <string>		Gui.frmMainWO.GsGCDueWO.GetCellValue("gvDueWO",3,V.Args.RowIndex,V.Local.sWO)</string>
+        <string>		Gui.frmMainWO.GsGCDueWO.GetCellValue("gvDueWO",4,V.Args.RowIndex,V.Local.sSuf)</string>
+        <string>		F.Intrinsic.String.Left(V.Args.Value,70,V.Local.sText)</string>
+        <string>		F.Intrinsic.String.Replace(V.Local.sText,"'","''",V.Local.sTextTbl)</string>
+        <string>		F.Intrinsic.String.Build("SELECT * FROM WO_USER_FLDS WHERE JOB = '{0}' AND SUFFIX = '{1}';",V.Local.sWO,V.Local.sSuf,V.Local.sSQL)</string>
+        <string>		F.ODBC.Connection!con.OpenRecordsetRW("rstNotes",V.Local.sSQL)</string>
+        <string>		F.Intrinsic.Control.If(V.ODBC.con!rstNotes.EOF,=,True)</string>
+        <string>			F.Intrinsic.String.Build("INSERT INTO WO_USER_FLDS(JOB,SUFFIX,USER_6) VALUES('{0}','{1}','{2}');",V.Local.sWO,V.Local.sSuf,V.Local.sTextTbl,V.Local.sSQL)</string>
+        <string>			F.ODBC.Connection!con.Execute(V.Local.sSQL)</string>
+        <string>		F.Intrinsic.Control.Else</string>
+        <string>			F.Intrinsic.String.Build("UPDATE WO_USER_FLDS SET USER_6 = '{0}' WHERE JOB = '{1}' AND SUFFIX = '{2}';",V.Local.sTextTbl,V.Local.sWO,V.Local.sSuf,V.Local.sSQL)</string>
+        <string>			F.ODBC.Connection!con.Execute(V.Local.sSQL)</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>		F.ODBC.con!rstNotes.Close</string>
+        <string>		F.Intrinsic.Control.CallSub(checknote,"WO",V.Local.sWO,"Suf",V.Local.sSuf,"Note",V.Local.sText,"GV","gvDueWO","RowIndex",V.Args.RowIndex,"WO_Note","WO_NOTE2")</string>
+        <string>F.Intrinsic.Control.EndSelect</string>
+        <string />
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("GsGCDueWO_CellValueChanged_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4242_SF_OpenJobReview.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	Function.Intrinsic.Control.CallSub(unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.GsGCDueWO_CellValueChanged.End</string>
+        <string />
+        <string>Program.Sub.optWiptoFG_Click.Start</string>
+        <string>	Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","FLAG_PRINT","AllowEdit",True)</string>
+        <string>	Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","FLAG_RELD","ReadOnly",False)</string>
+        <string>	Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","FLAG_RELD","AllowEdit",True)</string>
+        <string>	Gui.frmMainWO.GsGCDueWO.SetColumnProperty("gvDueWO","FLAG_PRINT","AllowEdit",True)</string>
+        <string>	Gui.frmMainWO.GsGCDueWO.SetColumnProperty("gvDueWO","FLAG_RELD","ReadOnly",False)</string>
+        <string>	Gui.frmMainWO.GsGCDueWO.SetColumnProperty("gvDueWO","FLAG_RELD","AllowEdit",True)</string>
+        <string>Program.Sub.optWiptoFG_Click.End</string>
+        <string />
+        <string>Program.Sub.optEdit_Click.Start</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","FLAG_PRINT","AllowEdit",False)</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","FLAG_RELD","AllowEdit",True)</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","FLAG_RELD","ReadOnly",False)</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","Sched","AllowEdit",False)</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","Sched","ReadOnly",True)</string>
+        <string />
+        <string>Gui.frmMainWO.GsGCdueWO.SetColumnProperty("gvdueWO","FLAG_PRINT","AllowEdit",FALSE)</string>
+        <string>Gui.frmMainWO.GsGCdueWO.SetColumnProperty("gvdueWO","FLAG_RELD","AllowEdit",True)</string>
+        <string>Gui.frmMainWO.GsGCdueWO.SetColumnProperty("gvdueWO","FLAG_RELD","ReadOnly",False)</string>
+        <string>Gui.frmMainWO.GsGCDueWO.SetColumnProperty("gvDueWO","Sched","AllowEdit",False)</string>
+        <string>Gui.frmMainWO.GsGCDueWO.SetColumnProperty("gvDueWO","Sched","ReadOnly",True)</string>
+        <string />
+        <string>Program.Sub.optEdit_Click.End</string>
+        <string />
+        <string>Program.Sub.optIssue_Click.Start</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","FLAG_PRINT","AllowEdit",False)</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","FLAG_PRINT","ReadOnly",True)</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","FLAG_RELD","AllowEdit",False)</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","Sched","AllowEdit",False)</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","Sched","ReadOnly",True)</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","FLAG_RELD","ReadOnly",True)</string>
+        <string>Gui.frmMainWO.GsGCDUEWO.SetColumnProperty("gvDUEWO","FLAG_PRINT","AllowEdit",False)</string>
+        <string>Gui.frmMainWO.GsGCDUEWO.SetColumnProperty("gvDUEWO","FLAG_PRINT","ReadOnly",True)</string>
+        <string>Gui.frmMainWO.GsGCDUEWO.SetColumnProperty("gvDUEWO","FLAG_RELD","AllowEdit",False)</string>
+        <string>Gui.frmMainWO.GsGCDUEWO.SetColumnProperty("gvDUEWO","FLAG_RELD","ReadOnly",True)</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvDueWO","Sched","AllowEdit",False)</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvDueWO","Sched","ReadOnly",True)</string>
+        <string>Program.Sub.optIssue_Click.End</string>
+        <string />
+        <string>Program.Sub.optView_Click.Start</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","FLAG_PRINT","AllowEdit",False)</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","FLAG_PRINT","ReadOnly",True)</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","FLAG_RELD","AllowEdit",False)</string>
+        <string>Gui.frmMainWO.GsGCAllWO.SetColumnProperty("gvAllWO","FLAG_RELD","ReadOnly",True)</string>
+        <string>Gui.frmMainWO.GsGCDueWO.SetColumnProperty("gvDueWO","FLAG_PRINT","AllowEdit",False)</string>
+        <string>Gui.frmMainWO.GsGCDueWO.SetColumnProperty("gvDueWO","FLAG_PRINT","ReadOnly",True)</string>
+        <string>Gui.frmMainWO.GsGCDueWO.SetColumnProperty("gvDueWO","FLAG_RELD","AllowEdit",False)</string>
+        <string>Gui.frmMainWO.GsGCDueWO.SetColumnProperty("gvDueWO","FLAG_RELD","ReadOnly",True)</string>
+        <string>Program.Sub.optView_Click.End</string>
+        <string />
+        <string>Program.Sub.optCHECKER.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("optCHECKER_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>F.Intrinsic.Control.If(V.Screen.frmMainWO!optEdit.Value,=,"True")</string>
+        <string>	F.Intrinsic.Control.CallSub(optedit_click)</string>
+        <string>F.Intrinsic.Control.ElseIf(V.Screen.frmMainWO!optIssue.Value,=,"True")</string>
+        <string>	F.Intrinsic.Control.CallSub(optissue_click)</string>
+        <string>F.Intrinsic.Control.ElseIf(V.Screen.frmMainWO!optWiptoFG.Value,=,"True")</string>
+        <string>	F.Intrinsic.Control.CallSub(optwiptofg_click)</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	F.Intrinsic.Control.CallSub(optview_click)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("optCHECKER_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4242_SF_OpenJobReview.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	Function.Intrinsic.Control.CallSub(unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.optCHECKER.End</string>
+        <string />
+        <string>Program.Sub.GsGCAllWO_RowCellClick1.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("GsGCAllWO_RowCellClick1_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>v.Local.stemp.Declare</string>
+        <string>v.Local.stemp2.Declare</string>
+        <string>v.Local.stemp3.Declare</string>
+        <string>V.Local.sParams.Declare</string>
+        <string>V.Local.iDayTrf.Declare</string>
+        <string>V.Local.iMonthTrf.Declare</string>
+        <string>V.Local.iYearTrf.Declare</string>
+        <string>'F.Intrinsic.Control.CallSub(optchecker)</string>
+        <string>F.Intrinsic.Control.SelectCase(v.Args.column)</string>
+        <string />
+        <string>	F.Intrinsic.Control.Case("FLAG_PRINT")</string>
+        <string>		Gui.frmMainWO.GsGCAllWO.getCellValue("gvAllWO",3,v.Args.RowIndex,v.Local.sTemp3)</string>
+        <string>		Gui.frmMainWO.GsGCAllWO.getCellValue("gvAllWO",4,v.Args.RowIndex,v.Local.sTemp2)</string>
+        <string>		F.Intrinsic.Control.If(v.Screen.frmMainWO!optEdit.Value,=,True)</string>
+        <string>			Gui.frmMainWO.GsGCAllWO.setCellValue("gvAllWO",0,v.Args.RowIndex,true)</string>
+        <string>			F.Intrinsic.String.Concat(V.Local.sTemp3,"!*!",V.Local.sTemp2,"!*!","1811",V.Local.sTemp)</string>
+        <string>			F.Global.General.CallWrapperSync(900100,V.Local.sTemp)</string>
+        <string>			f.Intrinsic.Control.ExitSub</string>
+        <string>		F.Intrinsic.Control.ElseIf(v.Screen.frmMainWO!optWiptoFG.Value,=,True)</string>
+        <string>			Gui.frmMainWO.GsGCAllWO.setCellValue("gvAllWO",0,v.Args.RowIndex,true)</string>
+        <string>			F.Intrinsic.String.Concat(V.Local.sTemp3,"!*!",V.Local.sTemp2,"!*!","1811",V.Local.sTemp)</string>
+        <string>			F.Global.General.CallWrapperSync(900100,V.Local.sTemp)</string>
+        <string>			f.Intrinsic.Control.ExitSub</string>
+        <string>		f.Intrinsic.Control.EndIf</string>
+        <string>		f.Intrinsic.Control.ExitSub</string>
+        <string>		</string>
+        <string>	f.Intrinsic.Control.Case("JOB")</string>
+        <string>		Gui.frmMainWO.GsGCAllWO.GetCellValue("gvAllWO",3,v.Args.RowIndex,v.Local.sTemp)</string>
+        <string>		Gui.frmMainWO.GsGCAllWO.GetCellValue("gvAllWO",4,v.Args.RowIndex,V.Local.stemp2)</string>
+        <string>		F.Intrinsic.Control.If(V.Screen.frmMainWO!optEdit.Value,=,"True")</string>
+        <string>			'Build Call Wrapper String</string>
+        <string>			F.Intrinsic.String.Build("{0}!*!{1}!*!O",V.Local.sTemp,V.Local.sTemp2,V.Local.sTemp)</string>
+        <string>			F.Intrinsic.Control.CallSub(disablecontrols)</string>
+        <string>			F.Global.General.CallWrapperSync(2009,V.Local.sTemp)</string>
+        <string>			F.Intrinsic.Control.CallSub(enablecontols)</string>
+        <string>		F.Intrinsic.Control.ElseIf(V.Screen.frmMainWO!optIssue.Value,=,"True")</string>
+        <string>			'Build Call Wrapper String</string>
+        <string>			F.Intrinsic.String.Build("{0}!*!{1}!*! !*! !*! !*! !*! ",V.Local.sTemp,V.Local.sTemp2,V.Local.sTemp)</string>
+        <string>			F.Intrinsic.Control.CallSub(disablecontrols)</string>
+        <string>			F.Global.General.CallWrapperSync(450150,V.Local.sTemp)</string>
+        <string>			F.Intrinsic.Control.CallSub(enablecontols)</string>
+        <string>		F.Intrinsic.Control.ElseIf(V.Screen.frmMainWO!optWiptoFG.Value,=,"True")</string>
+        <string>			'Build Call Wrapper String</string>
+        <string>			F.Intrinsic.Date.Day(V.Ambient.Date,V.Local.iDayTrf)</string>
+        <string>			F.Intrinsic.Date.Month(V.Ambient.Date,V.Local.iMonthTrf)</string>
+        <string>			F.Intrinsic.Date.Year(V.Ambient.Date,V.Local.iYearTrf)</string>
+        <string>			F.Intrinsic.String.Build("{0}!*!{1}!*!{2}!*!OS!*!!*!!*!!*!!*!!*!!*!{3}!*!{4}!*!16!*!03!*!02!*!!*!!*!!*!!*!!*!!*!!*!!*!!*!",V.Caller.CompanyCode,V.Caller.Terminal,V.Caller.Caller,V.Local.sTemp,V.Local.sTemp2,V.Local.sTemp)</string>
+        <string>			F.Intrinsic.Control.CallSub(disablecontrols)</string>
+        <string>			F.Global.General.CallWrapperSync(2003,V.Local.sTemp)</string>
+        <string>			F.Intrinsic.Control.CallSub(enablecontols)</string>
+        <string>		F.Intrinsic.Control.Else</string>
+        <string>			'Build Call Wrapper String</string>
+        <string>			F.Intrinsic.String.Concat("7","!*!",V.Local.sTemp,"!*!",V.Local.sTemp2,"!*!","A",V.Local.sTemp)</string>
+        <string>			F.Intrinsic.Control.CallSub(disablecontrols)</string>
+        <string>			F.Global.General.CallWrapperSync(450000,V.Local.sTemp)</string>
+        <string>			F.Intrinsic.Control.CallSub(enablecontols)</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>	</string>
+        <string>	F.Intrinsic.Control.Case("SUFFIX")</string>
+        <string>		Gui.frmMainWO.GsGCAllWO.GetCellValue("gvAllWO",3,v.Args.RowIndex,v.Local.sTemp)</string>
+        <string>		Gui.frmMainWO.GsGCAllWO.GetCellValue("gvAllWO",4,v.Args.RowIndex,V.Local.stemp2)</string>
+        <string>		F.Intrinsic.Control.If(V.Screen.frmMainWO!optEdit.Value,=,"True")</string>
+        <string>			'Build Call Wrapper String</string>
+        <string>			F.Intrinsic.String.Build("{0}!*!{1}!*!O",V.Local.sTemp,V.Local.sTemp2,V.Local.sTemp)</string>
+        <string>			F.Intrinsic.Control.CallSub(disablecontrols)</string>
+        <string>			F.Global.General.CallWrapperSync(2009,V.Local.sTemp)</string>
+        <string>			F.Intrinsic.Control.CallSub(enablecontols)</string>
+        <string>		F.Intrinsic.Control.ElseIf(V.Screen.frmMainWO!optIssue.Value,=,"True")</string>
+        <string>			'Build Call Wrapper String</string>
+        <string>			F.Intrinsic.String.Build("{0}!*!{1}!*! !*! !*! !*! !*! ",V.Local.sTemp,V.Local.sTemp2,V.Local.sTemp)</string>
+        <string>			F.Intrinsic.Control.CallSub(disablecontrols)</string>
+        <string>			F.Global.General.CallWrapperSync(450150,V.Local.sTemp)</string>
+        <string>			F.Intrinsic.Control.CallSub(enablecontols)</string>
+        <string>		F.Intrinsic.Control.ElseIf(V.Screen.frmMainWO!optWiptoFG.Value,=,"True")</string>
+        <string>			'Build Call Wrapper String</string>
+        <string>			F.Intrinsic.Date.Day(V.Ambient.Date,V.Local.iDayTrf)</string>
+        <string>			F.Intrinsic.Date.Month(V.Ambient.Date,V.Local.iMonthTrf)</string>
+        <string>			F.Intrinsic.Date.Year(V.Ambient.Date,V.Local.iYearTrf)</string>
+        <string>			F.Intrinsic.String.Build("{0}!*!{1}!*!{2}!*!OS!*!!*!!*!!*!!*!!*!!*!{3}!*!{4}!*!16!*!03!*!02!*!!*!!*!!*!!*!!*!!*!!*!!*!!*!",V.Caller.CompanyCode,V.Caller.Terminal,V.Caller.Caller,V.Local.sTemp,V.Local.sTemp2,V.Local.sTemp)</string>
+        <string>			F.Intrinsic.Control.CallSub(disablecontrols)</string>
+        <string>			F.Global.General.CallWrapperSync(2003,V.Local.sTemp)</string>
+        <string>			F.Intrinsic.Control.CallSub(enablecontols)</string>
+        <string>		F.Intrinsic.Control.Else</string>
+        <string>			'Build Call Wrapper String</string>
+        <string>			F.Intrinsic.String.Concat("7","!*!",V.Local.sTemp,"!*!",V.Local.sTemp2,"!*!","A",V.Local.sTemp)</string>
+        <string>			F.Intrinsic.Control.CallSub(disablecontrols)</string>
+        <string>			F.Global.General.CallWrapperSync(450000,V.Local.sTemp)</string>
+        <string>			F.Intrinsic.Control.CallSub(enablecontols)</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>	</string>
+        <string>	F.Intrinsic.Control.Case("PART")</string>
+        <string>		F.Intrinsic.Control.If(V.Screen.frmMainWO!optView.Value,=,True)</string>
+        <string>			Gui.frmMainWO.GsGCAllWO.getcellValue("gvAllWO",6,v.Args.RowIndex,v.Local.stemp)</string>
+        <string>			Gui.frmMainWO.GsGCAllWO.getcellValue("gvAllWO",7,v.Args.RowIndex,v.Local.stemp2)</string>
+        <string>			F.Intrinsic.String.Build("{0}!*!{1}!*!O",V.Local.stemp,V.Local.stemp2,V.Local.sParams)</string>
+        <string>			F.Intrinsic.Control.CallSub(disablecontrols)</string>
+        <string>			F.Global.General.CallWrapperSync(300011,V.Local.sParams)</string>
+        <string>			F.Intrinsic.Control.CallSub(enablecontols)</string>
+        <string>		F.Intrinsic.Control.Else</string>
+        <string>			Gui.frmMainWO.GsGCAllWO.getcellValue("gvAllWO",6,v.Args.RowIndex,v.Local.stemp)</string>
+        <string>			Gui.frmMainWO.GsGCAllWO.getcellValue("gvAllWO",7,v.Args.RowIndex,v.Local.stemp2)</string>
+        <string>			F.Intrinsic.String.Build("{0}!*!{1}!*!M",V.Local.stemp,V.Local.stemp2,V.Local.sParams)</string>
+        <string>			F.Intrinsic.Control.CallSub(disablecontrols)</string>
+        <string>			F.Global.General.CallWrapperSync(300011,V.Local.sParams)</string>
+        <string>			F.Intrinsic.Control.CallSub(enablecontols)</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>	Function.Intrinsic.Control.Case("sched")</string>
+        <string>		Gui.frmMainWO.GsGCAllWO.getcellValue("gvAllWO",3,v.Args.RowIndex,v.Global.sJob)		</string>
+        <string>		Gui.frmMainWO.GsGCAllWO.getcellValue("gvAllWO",4,v.Args.RowIndex,v.Global.sSuffix)</string>
+        <string>		Function.Intrinsic.Control.If(v.Global.sSuffix.Trim,&lt;&gt;,"")</string>
+        <string>			F.Intrinsic.String.Build("WO: {0}-{1}",v.Global.sJob,v.Global.sSuffix,v.Local.sParams) </string>
+        <string>		Function.Intrinsic.Control.Else </string>
+        <string>			F.Intrinsic.String.Build("WO: {0}",v.Global.sJob,v.Local.sParams) </string>
+        <string>		Function.Intrinsic.Control.EndIf</string>
+        <string>		Gui.Frm_Schedule.lblWO.Caption(v.Local.sParams) 		</string>
+        <string>		Function.Intrinsic.Control.CallSub(disablecontrols)</string>
+        <string>		Gui.Frm_Schedule..Show</string>
+        <string>		Gui.Frm_Schedule..AlwaysOnTop(True)	</string>
+        <string>F.Intrinsic.Control.EndSelect</string>
+        <string>Function.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("GsGCAllWO_RowCellClick1_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4242_SF_OpenJobReview.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	Function.Intrinsic.Control.CallSub(unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.GsGCAllWO_RowCellClick1.End</string>
+        <string />
+        <string>Program.Sub.loaddvgduewo.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("loaddvgduewo_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string />
+        <string />
+        <string>V.Local.iRet.Declare</string>
+        <string>V.Local.iCnt.Declare</string>
+        <string />
+        <string>Gui.frmMainWO.pbStatus.Value(80)</string>
+        <string>	</string>
+        <string>F.Intrinsic.Control.If(V.DataView.dtdueWO!dvdueWO.Exists,=,True)</string>
+        <string>	F.Data.DataView.Close("dtdueWO","dvdueWO")</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>'Create DataView</string>
+        <string>F.Data.DataView.Create("dtdueWO","dvdueWO",22,"IND_FLAG &lt;&gt; True","DATE_DUE ASC")</string>
+        <string>Gui.frmMainWO.GsGCdueWO.AddGridViewFromDataView("gvDueWO","dtdueWO","dvdueWO")</string>
+        <string />
+        <string>GUi.frmMainWO.GsGCDueWO.SetColumnProperty("gvDueWo","Sched","Caption","Schedule WO")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.SetColumnProperty("gvDueWO","Sched","VisibleIndex",6) </string>
+        <string>GUI.frmMainWO.GsGCDueWO.SetColumnProperty("gvDueWO","Sched","FIXED","LEFT")</string>
+        <string>'Gui.frmMainWO.GsGCDueWO.SetColumnProperty("gvDueWO","Sched","AllowEdit",fALSE)</string>
+        <string>'Gui.frmmainwo.GsGCDueWO.SetColumnProperty("gvduewo","Sched","ReadOnly",True)</string>
+        <string>Gui.frmMainWO.GsGCDueWO.ColumnEdit("gvDueWO","Sched","EditorButton","Sched WO")</string>
+        <string>Gui.frmMainWO.GsGCdueWO.SetGridViewProperty("gvDueWO","MultiSelect",True)</string>
+        <string>Gui.frmMainWO.GsGCdueWO.setGridViewProperty("gvDueWO","AllowSort",True)</string>
+        <string>Gui.frmMainWO.GsGCdueWO.setGridViewProperty("gvDueWO","AllowFilter",True)</string>
+        <string>Gui.frmMainWO.GsGCdueWO.setGridViewProperty("gvDueWO","OptionsDetailShowDetailTabs",False)</string>
+        <string>Gui.frmMainWO.GsGCdueWO.setGridViewProperty("gvDueWO","OptionsViewShowGroupPanel",True)</string>
+        <string />
+        <string>'setColumnProperties</string>
+        <string>Gui.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","JS","Visible",False)</string>
+        <string>Gui.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","IND_FLAG","Visible",False)</string>
+        <string />
+        <string>Gui.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","FLAG_PRINT","Caption","Printed")</string>
+        <string>Gui.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","FLAG_RELD","Caption","Released")</string>
+        <string>Gui.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","REL_DATE","Caption","Rel Date")</string>
+        <string>Gui.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","JOB","Caption","Job")</string>
+        <string>Gui.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","SUFFIX","Caption","Suf.")</string>
+        <string>Gui.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","CUST_NAME","Caption","Cust Name")</string>
+        <string>Gui.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","PART","Caption","Part")</string>
+        <string>Gui.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","LOCATION","Caption","Loc")</string>
+        <string>Gui.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","PRODUCT_LINE","Caption","PL")</string>
+        <string>Gui.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","DATE_OPENED","Caption","Opened Dt")</string>
+        <string>Gui.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","DATE_DUE","Caption","WO Due Dt")</string>
+        <string>Gui.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","SCHEDULED_DUE_DATE","Caption","Sched Due Dt")</string>
+        <string>Gui.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","DATE_START","Caption","1st Lbr St Dt")</string>
+        <string>Gui.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","NUM_HOURS","Caption","Act. Hrs.")</string>
+        <string>Gui.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","QTY_LEFT","Caption","Qty Rem")</string>
+        <string>Gui.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","WO_NOTE","Caption","Notes")</string>
+        <string>Gui.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","WO_NOTE2","Caption","User Field 6 (70 Characters)")</string>
+        <string>Gui.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","DESCRIPTION","Caption","Description")</string>
+        <string>Gui.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","FLAG_PRINT","ReadOnly",True)</string>
+        <string>Gui.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","FLAG_PRINT","AllowEdit",False)</string>
+        <string>Gui.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","FLAG_RELD","ReadOnly",True)</string>
+        <string>Gui.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","FLAG_RELD","AllowEdit",False)</string>
+        <string>GUI.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","WO_NOTE","AllowEdit",True)</string>
+        <string>GUI.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","WO_NOTE","ReadOnly",False)</string>
+        <string>GUI.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","WO_NOTE2","AllowEdit",True)</string>
+        <string>GUI.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","WO_NOTE2","ReadOnly",False)</string>
+        <string>GUI.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","CUST_NAME","AllowEdit",false)</string>
+        <string>GUI.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","PART","AllowEdit",false)</string>
+        <string>GUI.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","REL_DATE","AllowEdit",false)</string>
+        <string>GUI.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","JOB","AllowEdit",false)</string>
+        <string>GUI.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","SUFFIX","AllowEdit",false)</string>
+        <string>GUI.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","LOCATION","AllowEdit",false)</string>
+        <string>GUI.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","PRODUCT_LINE","AllowEdit",false)</string>
+        <string>GUI.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","DATE_OPENED","AllowEdit",false)</string>
+        <string>GUI.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","DATE_DUE","AllowEdit",false)</string>
+        <string>GUI.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","SCHEDULED_DUE_DATE","AllowEdit",false)</string>
+        <string>GUI.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","DATE_START","AllowEdit",false)</string>
+        <string>GUI.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","NUM_HOURS","AllowEdit",false)</string>
+        <string>GUI.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","QTY_LEFT","AllowEdit",false)</string>
+        <string>GUI.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","JOB","CELLFORECOLOR","BLUE")</string>
+        <string>GUI.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","PART","CELLFORECOLOR","BLUE")</string>
+        <string>GUI.frmMainWO.GsGCdueWO.SetColumnProperty("gvDueWO","SUFFIX","CELLFORECOLOR","BLUE")</string>
+        <string>GUI.frmMainWO.GsGCDueWO.SetColumnProperty("gvDueWO","WO_NOTE","CellBackColor","LightYellow")</string>
+        <string>GUI.frmMainWO.GsGCDueWO.SetColumnProperty("gvDueWO","WO_NOTE2","CellBackColor","LightYellow")</string>
+        <string>GUI.frmMainWO.GsGCDueWO.SetColumnProperty("gvDueWO","FLAG_PRINT","FIXED","LEFT")</string>
+        <string>GUI.frmMainWO.GsGCDueWO.SetColumnProperty("gvDueWO","FLAG_RELD","FIXED","LEFT")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.SetColumnProperty("gvDueWO","REL_DATE","FIXED","LEFT")</string>
+        <string>GUI.frmMainWO.GsGCDueWO.SetColumnProperty("gvDueWO","JOB","FIXED","LEFT")</string>
+        <string>GUI.frmMainWO.GsGCDueWO.SetColumnProperty("gvDueWO","SUFFIX","FIXED","LEFT")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.setColumnProperty("gvDueWO","FLAG_PRINT","HEADERHALIGNMENT","CENTER")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.setColumnProperty("gvDueWO","FLAG_RELD","HEADERHALIGNMENT","CENTER")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.setColumnProperty("gvDueWO","JOB","HEADERHALIGNMENT","CENTER")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.setColumnProperty("gvDueWO","SUFFIX","HEADERHALIGNMENT","CENTER")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.setColumnProperty("gvDueWO","REL_DATE","HEADERHALIGNMENT","CENTER")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.setColumnProperty("gvDueWO","LOCATION","HEADERHALIGNMENT","CENTER")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.setColumnProperty("gvDueWO","PRODUCT_LINE","HEADERHALIGNMENT","CENTER")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.setColumnProperty("gvDueWO","DATE_OPENED","HEADERHALIGNMENT","CENTER")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.setColumnProperty("gvDueWO","DATE_DUE","HEADERHALIGNMENT","CENTER")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.setColumnProperty("gvDueWO","SCHEDULED_DUE_DATE","HEADERHALIGNMENT","CENTER")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.setColumnProperty("gvDueWO","DATE_START","HEADERHALIGNMENT","CENTER")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.setColumnProperty("gvDueWO","FLAG_PRINT","CElLHALIGNMENT","CENTER")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.setColumnProperty("gvDueWO","FLAG_RELD","CElLHALIGNMENT","CENTER")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.setColumnProperty("gvDueWO","JOB","CElLHALIGNMENT","CENTER")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.setColumnProperty("gvDueWO","SUFFIX","CElLHALIGNMENT","CENTER")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.setColumnProperty("gvDueWO","REL_DATE","CElLHALIGNMENT","CENTER")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.setColumnProperty("gvDueWO","LOCATION","CElLHALIGNMENT","CENTER")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.setColumnProperty("gvDueWO","PRODUCT_LINE","CElLHALIGNMENT","CENTER")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.setColumnProperty("gvDueWO","DATE_OPENED","CElLHALIGNMENT","CENTER")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.setColumnProperty("gvDueWO","DATE_DUE","CElLHALIGNMENT","CENTER")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.setColumnProperty("gvDueWO","SCHEDULED_DUE_DATE","CElLHALIGNMENT","CENTER")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.setColumnProperty("gvDueWO","DATE_START","CElLHALIGNMENT","CENTER")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.SetColumnProperty("gvDueWO","FLAG_PRINT","MinWidth","50")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.SetColumnProperty("gvDueWO","FLAG_RELD","MinWidth","55")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.SetColumnProperty("gvDueWO","REL_DATE","MinWidth","63")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.SetColumnProperty("gvDueWO","JOB","MinWidth","50")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.SetColumnProperty("gvDueWO","SUFFIX","MinWidth","36")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.SetColumnProperty("gvDueWO","CUST_NAME","MinWidth","200")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.SetColumnProperty("gvDueWO","PART","MinWidth","150")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.SetColumnProperty("gvDueWO","LOCATION","MinWidth","32")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.SetColumnProperty("gvDueWO","PRODUCT_LINE","MinWidth","25")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.SetColumnProperty("gvDueWO","DESCRIPTION","MinWidth","220")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.SetColumnProperty("gvDueWO","DATE_OPENED","MinWidth","63")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.SetColumnProperty("gvDueWO","DATE_DUE","MinWidth","63")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.SetColumnProperty("gvDueWO","SCHEDULED_DUE_DATE","MinWidth","75")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.SetColumnProperty("gvDueWO","DATE_START","MinWidth","69")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.SetColumnProperty("gvDueWO","NUM_HOURS","MinWidth","90")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.SetColumnProperty("gvDueWO","QTY_LEFT","MinWidth","90")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.SetColumnProperty("gvDueWO","WO_NOTE","MinWidth","300")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.SetColumnProperty("gvDueWO","WO_NOTE2","MinWidth","300")</string>
+        <string />
+        <string>Gui.frmMainWO.GsGCDueWO.SetColumnProperty("gvDueWO","DATE_OPENED","DisplayCustomDatetime","d")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.SetColumnProperty("gvDueWO","DATE_DUE","DisplayCustomDatetime","d")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.SetColumnProperty("gvDueWO","SCHEDULED_DUE_DATE","DisplayCustomDatetime","d")</string>
+        <string>Gui.frmMainWO.GsGCDueWO.SetColumnProperty("gvDueWO","DATE_START","DisplayCustomDatetime","d")</string>
+        <string />
+        <string>F.Intrinsic.Control.For(V.Local.iCnt,0,V.DataView.dtdueWO!dvdueWO.RowCount--,2)</string>
+        <string>	Gui.frmMainWO.GsGCDueWO.SetRowAppearance("gvDueWO",V.Local.iCnt,"BackColor","AliceBlue")</string>
+        <string>F.Intrinsic.Control.Next(V.Local.iCnt)</string>
+        <string />
+        <string>Gui.frmMainWO.GsGCdueWO.MainView("gvDueWO")</string>
+        <string />
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("loaddvgduewo_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4242_SF_OpenJobReview.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	Function.Intrinsic.Control.CallSub(unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.loaddvgduewo.End</string>
+        <string />
+        <string>Program.Sub.genTable.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("genTable_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string />
+        <string />
+        <string>V.Local.bTable.Declare(Boolean)</string>
+        <string />
+        <string>F.ODBC.Connection!Con.TableExists("GCG_4242_WODSH_RELDT",V.Local.bTable)</string>
+        <string>F.Intrinsic.Control.If(V.Local.bTable,=,False)</string>
+        <string>	F.ODBC.Connection!Con.Execute("CREATE TABLE GCG_4242_WODSH_RELDT(JOB CHAR(6), SUFFIX CHAR(3), REL_DATE DATE, USERID CHAR(8)); ")</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("genTable_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4242_SF_OpenJobReview.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	Function.Intrinsic.Control.CallSub(unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.genTable.End</string>
+        <string />
+        <string>Program.Sub.CheckNote.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("CheckNote_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string />
+        <string />
+        <string>	V.Local.sWO.Declare</string>
+        <string>	V.Local.sSuf.Declare</string>
+        <string>	V.Local.iRows.Declare</string>
+        <string>	V.Local.iCnt.Declare</string>
+        <string>	</string>
+        <string>	F.Intrinsic.Control.If(V.Args.WO_Note,=,"WO_NOTE")</string>
+        <string>		F.Intrinsic.Control.If(V.Args.GV,=,"gvAllWO")</string>
+        <string>			Gui.frmMainWO.GsGCDueWO.GetRowCount("gvDueWO",V.Local.iRows)</string>
+        <string>			F.Intrinsic.Math.Sub(V.Local.iRows,1,V.Local.iRows)</string>
+        <string>			F.Intrinsic.Control.For(V.Local.iCnt,0,V.Local.iRows,1)</string>
+        <string>				Gui.frmMainWO.GsGCDueWO.GetCellValue("gvDueWO",3,V.Local.iCnt,V.Local.sWO)</string>
+        <string>				Gui.frmMainWO.GsGCDueWO.GetCellValue("gvDueWO",4,V.Local.iCnt,V.Local.sSuf)</string>
+        <string>				F.Intrinsic.Control.If(V.Local.sWO,=,V.Args.WO)</string>
+        <string>				F.Intrinsic.Control.AndIf(V.Local.sSuf,=,V.Args.Suf)</string>
+        <string>					Gui.frmMainWO.GsGCDueWO.SetCellValue("gvDueWO",16,V.Local.iCnt,V.Args.Note)</string>
+        <string>				F.Intrinsic.Control.EndIf</string>
+        <string>			F.Intrinsic.Control.Next(V.Local.iCnt)</string>
+        <string>		F.Intrinsic.Control.Else</string>
+        <string>			Gui.frmMainWO.GsGCAllWO.GetRowCount("gvAllWO",V.Local.iRows)</string>
+        <string>			F.Intrinsic.Math.Sub(V.Local.iRows,1,V.Local.iRows)</string>
+        <string>			F.Intrinsic.Control.For(V.Local.iCnt,0,V.Local.iRows,1)</string>
+        <string>				Gui.frmMainWO.GsGCAllWO.GetCellValue("gvAllWO",3,V.Local.iCnt,V.Local.sWO)</string>
+        <string>				Gui.frmMainWO.GsGCAllWO.GetCellValue("gvAllWO",4,V.Local.iCnt,V.Local.sSuf)</string>
+        <string>				F.Intrinsic.Control.If(V.Local.sWO,=,V.Args.WO)</string>
+        <string>				F.Intrinsic.Control.AndIf(V.Local.sSuf,=,V.Args.Suf)</string>
+        <string>					Gui.frmMainWO.GsGCAllWO.SetCellValue("gvAllWO",16,V.Local.iCnt,V.Args.Note)</string>
+        <string>				F.Intrinsic.Control.EndIf</string>
+        <string>			F.Intrinsic.Control.Next(V.Local.iCnt)</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>	F.Intrinsic.Control.ElseIf(V.Args.WO_Note,=,"WO_NOTE2")</string>
+        <string>		F.Intrinsic.Control.If(V.Args.GV,=,"gvAllWO")</string>
+        <string>			Gui.frmMainWO.GsGCDueWO.GetRowCount("gvDueWO",V.Local.iRows)</string>
+        <string>			F.Intrinsic.Math.Sub(V.Local.iRows,1,V.Local.iRows)</string>
+        <string>			F.Intrinsic.Control.For(V.Local.iCnt,0,V.Local.iRows,1)</string>
+        <string>				Gui.frmMainWO.GsGCDueWO.GetCellValue("gvDueWO",3,V.Local.iCnt,V.Local.sWO)</string>
+        <string>				Gui.frmMainWO.GsGCDueWO.GetCellValue("gvDueWO",4,V.Local.iCnt,V.Local.sSuf)</string>
+        <string>				F.Intrinsic.Control.If(V.Local.sWO,=,V.Args.WO)</string>
+        <string>				F.Intrinsic.Control.AndIf(V.Local.sSuf,=,V.Args.Suf)</string>
+        <string>					Gui.frmMainWO.GsGCDueWO.SetCellValue("gvDueWO",17,V.Local.iCnt,V.Args.Note)</string>
+        <string>				F.Intrinsic.Control.EndIf</string>
+        <string>			F.Intrinsic.Control.Next(V.Local.iCnt)</string>
+        <string>		F.Intrinsic.Control.Else</string>
+        <string>			Gui.frmMainWO.GsGCAllWO.GetRowCount("gvAllWO",V.Local.iRows)</string>
+        <string>			F.Intrinsic.Math.Sub(V.Local.iRows,1,V.Local.iRows)</string>
+        <string>			F.Intrinsic.Control.For(V.Local.iCnt,0,V.Local.iRows,1)</string>
+        <string>				Gui.frmMainWO.GsGCAllWO.GetCellValue("gvAllWO",3,V.Local.iCnt,V.Local.sWO)</string>
+        <string>				Gui.frmMainWO.GsGCAllWO.GetCellValue("gvAllWO",4,V.Local.iCnt,V.Local.sSuf)</string>
+        <string>				F.Intrinsic.Control.If(V.Local.sWO,=,V.Args.WO)</string>
+        <string>				F.Intrinsic.Control.AndIf(V.Local.sSuf,=,V.Args.Suf)</string>
+        <string>					Gui.frmMainWO.GsGCAllWO.SetCellValue("gvAllWO",17,V.Local.iCnt,V.Args.Note)</string>
+        <string>				F.Intrinsic.Control.EndIf</string>
+        <string>			F.Intrinsic.Control.Next(V.Local.iCnt)</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("CheckNote_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4242_SF_OpenJobReview.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	Function.Intrinsic.Control.CallSub(unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.CheckNote.End</string>
+        <string />
+        <string>Program.Sub.cmdNew_Click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmdNew_Click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.iRowCnt.Declare</string>
+        <string>V.Local.iRowCnt2.Declare</string>
+        <string />
+        <string>F.ODBC.Connection!con.ExecuteAndReturn("SELECT COUNT(*) FROM JOB_HEADER;",V.Local.iRowCnt)</string>
+        <string />
+        <string>F.Intrinsic.Control.CallSub(disablecontrols)</string>
+        <string>F.Global.General.CallWrapperSync(2009,"*!*!!*!N")</string>
+        <string />
+        <string>F.ODBC.Connection!con.ExecuteAndReturn("SELECT COUNT(*) FROM JOB_HEADER;",V.Local.iRowCnt2)</string>
+        <string />
+        <string>F.Intrinsic.Control.If(V.Local.iRowCnt,&lt;&gt;,V.Local.iRowCnt2)</string>
+        <string>	F.Intrinsic.Control.CallSub(cmdrefresh_click)</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	F.Intrinsic.Control.CallSub(enablecontols)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("cmdNew_Click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4242_SF_OpenJobReview.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	Function.Intrinsic.Control.CallSub(unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.cmdNew_Click.End</string>
+        <string />
+        <string>Program.Sub.DisableControls.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("DisableControls_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>	Gui.frmMainWO.tabWO.SetTab(0)</string>
+        <string>	Gui.frmMainWO.pbStatus.Min(0)</string>
+        <string>	Gui.frmMainWO.pbStatus.Max(100)</string>
+        <string>	Gui.frmMainWO.pbStatus.Value(0)</string>
+        <string>	Gui.frmMainWO.lblStatus.Visible(True)</string>
+        <string>	Gui.frmMainWO.pbStatus.Visible(True)</string>
+        <string>	Gui.frmMainWO.frameButtons.Enabled(False)</string>
+        <string>	Gui.frmMainWO.framePermissions.Enabled(False)</string>
+        <string>	Gui.frmMainWO.tabWO.Enabled(False)</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("DisableControls_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4242_SF_OpenJobReview.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	Function.Intrinsic.Control.CallSub(unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.DisableControls.End</string>
+        <string />
+        <string>Program.Sub.EnableContols.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("EnableContols_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>Gui.frmMainWO.frameButtons.Enabled(True)</string>
+        <string>Gui.frmMainWO.framePermissions.Enabled(True)</string>
+        <string>Gui.frmMainWO.tabWO.Enabled(True)</string>
+        <string>Gui.frmMainWO.lblStatus.Visible(False)</string>
+        <string>Gui.frmMainWO.pbStatus.Visible(False)</string>
+        <string>F.Intrinsic.Control.CallSub(checkpermissions)</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("EnableContols_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4242_SF_OpenJobReview.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	Function.Intrinsic.Control.CallSub(unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.EnableContols.End</string>
+        <string />
+        <string>Program.Sub.CheckPermissions.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("EnableContols_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>	V.Local.bEditGrp.Declare</string>
+        <string>	V.Local.bIssueGrp.Declare</string>
+        <string>	V.Local.bWiptoFG.Declare</string>
+        <string />
+        <string>	'Check what groups the User is in</string>
+        <string>	F.Global.Security.IsInGroup(v.Caller.User,"EDITWO",v.Local.bEditGrp)</string>
+        <string>	F.Intrinsic.Control.If(V.Local.bEditGrp,=,True)</string>
+        <string>		Gui.frmMainWO.optEdit.Enabled(True)</string>
+        <string>		gui.frmMainWO.cmdWOSO.Enabled(true)</string>
+        <string>		Gui.frmMainWO.cmdNew.Enabled(True)</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>	</string>
+        <string>	F.Global.Security.IsInGroup(v.Caller.User,"ISSUE",v.Local.bIssueGrp)</string>
+        <string>	F.Intrinsic.Control.If(v.Local.bIssueGrp,=,True)</string>
+        <string>		Gui.frmMainWO.optIssue.Enabled(True)</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>	</string>
+        <string>	F.Global.Security.IsInGroup(v.Caller.User,"WIPFG",v.Local.bWiptoFG)</string>
+        <string>	F.Intrinsic.Control.If(v.Local.bWiptoFG,=,True)</string>
+        <string>		Gui.frmMainWO.optWiptoFG.Enabled(True)</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("EnableContols_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4242_SF_OpenJobReview.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	Function.Intrinsic.Control.CallSub(unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.CheckPermissions.End</string>
+        <string />
+        <string>Program.Sub.CheckTable.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("CheckTable_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.bExists.Declare(Boolean)</string>
+        <string>Gui.frmMainWO.lblStatus.Caption("Checking Database Table....")</string>
+        <string>	F.ODBC.Connection!con.TableExists("GCG_4242_WO_NOTES",V.Local.bExists)</string>
+        <string>	F.Intrinsic.Control.If(V.Local.bExists,=,False)</string>
+        <string>		F.ODBC.Connection!con.Execute("CREATE TABLE GCG_4242_WO_NOTES(JOB CHAR(6),SUFFIX CHAR(3),NOTES LONGVARCHAR);")</string>
+        <string>		F.ODBC.Connection!con.Execute("CREATE INDEX GCG_4242_WO_NOTES01 USING 1 ON GCG_4242_WO_NOTES(JOB);")</string>
+        <string>		F.ODBC.Connection!con.Execute("CREATE INDEX GCG_4242_WO_NOTES02 USING 2 ON GCG_4242_WO_NOTES(SUFFIX);")</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>	</string>
+        <string>	F.ODBC.Connection!con.TableExists("GCG_4242_WODSH_RELDT",V.Local.bExists)</string>
+        <string>	F.Intrinsic.Control.If(V.Local.bExists,=,False)</string>
+        <string>		F.ODBC.Connection!con.Execute("CREATE TABLE GCG_4242_WODSH_RELDT(JOB CHAR(6),SUFFIX CHAR(3),REL_DATE DATE,USERID CHAR(8));")</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("CheckTable_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4242_SF_OpenJobReview.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	Function.Intrinsic.Control.CallSub(unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.CheckTable.End</string>
+        <string />
+        <string>Program.Sub.cmdExport_Click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmdExport_Click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>	V.Local.sFileExport.Declare</string>
+        <string>	V.Local.bExcel.Declare</string>
+        <string>	V.Local.bFileLocked.Declare</string>
+        <string>	V.Local.sMsg.Declare</string>
+        <string>	</string>
+        <string>	F.Automation.MSExcel.CheckPresence(V.Local.bExcel)</string>
+        <string>	</string>
+        <string>	F.Intrinsic.Control.SelectCase(V.Screen.frmMainWO!tabWO.Tab)</string>
+        <string>		F.Intrinsic.Control.Case(0)</string>
+        <string>			F.Intrinsic.Control.If(V.Local.bExcel)</string>
+        <string>				F.Intrinsic.String.Build("{0}\GAB_4169_AllWOs_Export.xlsx",V.Caller.LocalGssTempDir,V.Local.sFileExport)</string>
+        <string>				F.Intrinsic.File.IsFileLocked(V.Local.sFileExport,V.Local.bFileLocked)</string>
+        <string>				F.Intrinsic.Control.If(V.Local.bFileLocked)</string>
+        <string>					F.Intrinsic.String.Build("File is already open. Please close and export again.{0}File: {1}",V.Ambient.NewLine,V.Local.sFileExport,V.Local.sMsg)</string>
+        <string>					F.Intrinsic.UI.Msgbox(V.Local.sMsg,"File In Use")</string>
+        <string>				F.Intrinsic.Control.Else</string>
+        <string>					Gui.frmMainWO.GsGCAllWO.Export(V.Local.sFileExport,"xlsx")</string>
+        <string>					F.Intrinsic.Task.ShellExec(0,"",V.Local.sFileExport,"","",1)</string>
+        <string>				F.Intrinsic.Control.EndIf</string>
+        <string>			F.Intrinsic.Control.Else</string>
+        <string>				F.Intrinsic.String.Build("{0}\GAB_4169_AllWOs_Export.csv",V.Caller.LocalGssTempDir,V.Local.sFileExport)</string>
+        <string>				F.Intrinsic.File.IsFileLocked(V.Local.sFileExport,V.Local.bFileLocked)</string>
+        <string>				F.Intrinsic.Control.If(V.Local.bFileLocked)</string>
+        <string>					F.Intrinsic.String.Build("File is already open. Please close and export again.{0}File: {1}",V.Ambient.NewLine,V.Local.sFileExport,V.Local.sMsg)</string>
+        <string>					F.Intrinsic.UI.Msgbox(V.Local.sMsg,"File In Use")</string>
+        <string>				F.Intrinsic.Control.Else</string>
+        <string>					Gui.frmMainWO.GsGCAllWO.Export(V.Local.sFileExport,"csv")</string>
+        <string>				F.Intrinsic.Control.EndIf</string>
+        <string>				F.Intrinsic.Task.ShellExec(0,"",V.Local.sFileExport,"","",1)</string>
+        <string>			F.Intrinsic.Control.EndIf</string>
+        <string>			</string>
+        <string>		F.Intrinsic.Control.Case(1)</string>
+        <string>			F.Intrinsic.Control.If(V.Local.bExcel)</string>
+        <string>				F.Intrinsic.String.Build("{0}\GAB_4169_PastDue_Export.xlsx",V.Caller.LocalGssTempDir,V.Local.sFileExport)</string>
+        <string>				F.Intrinsic.File.IsFileLocked(V.Local.sFileExport,V.Local.bFileLocked)</string>
+        <string>				F.Intrinsic.Control.If(V.Local.bFileLocked)</string>
+        <string>					F.Intrinsic.String.Build("File is already open. Please close and export again.{0}File: {1}",V.Ambient.NewLine,V.Local.sFileExport,V.Local.sMsg)</string>
+        <string>					F.Intrinsic.UI.Msgbox(V.Local.sMsg,"File In Use")</string>
+        <string>				F.Intrinsic.Control.Else</string>
+        <string>					Gui.frmMainWO.GsGCDueWO.Export(V.Local.sFileExport,"xlsx")</string>
+        <string>					F.Intrinsic.Task.ShellExec(0,"",V.Local.sFileExport,"","",1)</string>
+        <string>				F.Intrinsic.Control.EndIf</string>
+        <string>			F.Intrinsic.Control.Else</string>
+        <string>				F.Intrinsic.String.Build("{0}\GAB_4169_PastDue_Export.csv",V.Caller.LocalGssTempDir,V.Local.sFileExport)</string>
+        <string>				F.Intrinsic.File.IsFileLocked(V.Local.sFileExport,V.Local.bFileLocked)</string>
+        <string>				F.Intrinsic.Control.If(V.Local.bFileLocked)</string>
+        <string>					F.Intrinsic.String.Build("File is already open. Please close and export again.{0}File: {1}",V.Ambient.NewLine,V.Local.sFileExport,V.Local.sMsg)</string>
+        <string>					F.Intrinsic.UI.Msgbox(V.Local.sMsg,"File In Use")</string>
+        <string>				F.Intrinsic.Control.Else</string>
+        <string>					Gui.frmMainWO.GsGCDueWO.Export(V.Local.sFileExport,"csv")</string>
+        <string>				F.Intrinsic.Control.EndIf</string>
+        <string>				F.Intrinsic.Task.ShellExec(0,"",V.Local.sFileExport,"","",1)</string>
+        <string>			F.Intrinsic.Control.EndIf</string>
+        <string>	F.Intrinsic.Control.EndSelect</string>
+        <string />
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("cmdExport_Click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4242_SF_OpenJobReview.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	Function.Intrinsic.Control.CallSub(unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.cmdExport_Click.End</string>
+        <string />
+        <string>Program.Sub.picGSSLogo_DblClick.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("picGSSLogo_DblClick_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>Gui.frmWeb..Show</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("picGSSLogo_DblClick_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4242_SF_OpenJobReview.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	Function.Intrinsic.Control.CallSub(Unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.picGSSLogo_DblClick.End</string>
+        <string />
+        <string>Program.Sub.frmWeb_UnLoad.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("frmWeb_UnLoad_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>v.Local.sError.Declare(String)</string>
+        <string>Gui.frmWeb..Visible(False)</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>f.Intrinsic.Control.Label("frmWeb_UnLoad_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4242_SF_OpenJobReview.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	Function.Intrinsic.Control.CallSub(unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.frmWeb_UnLoad.End</string>
+        <string />
+        <string>Program.Sub.cmdGSS_Click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmdGSS_Click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>F.Intrinsic.Task.ShellExec(0,"Open","http://www.globalshopsolutions.com/","","",0)</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("cmdGSS_Click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4242_SF_OpenJobReview.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	Function.Intrinsic.Control.CallSub(unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.cmdGSS_Click.End</string>
+        <string />
+        <string>Program.Sub.cmdServ_Click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmdServ_Click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>F.Intrinsic.Task.ShellExec(0,"Open","http://gss-service.com/","","",0)</string>
+        <string>f.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("cmdServ_Click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4242_SF_OpenJobReview.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	Function.Intrinsic.Control.CallSub(unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.cmdServ_Click.End</string>
+        <string />
+        <string>Program.Sub.cmdUpd_Click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmdUpd_Click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>F.Intrinsic.Task.ShellExec(0,"Open","http://gss-updates.com/","","",0)</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("cmdUpd_Click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4242_SF_OpenJobReview.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	Function.Intrinsic.Control.CallSub(unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.cmdUpd_Click.End</string>
+        <string />
+        <string>Program.Sub.Unload.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Unload_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>F.ODBC.Connection!con.Close</string>
+        <string>Function.Intrinsic.Control.End</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("Unload_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4242_SF_OpenJobReview.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	Function.Intrinsic.Control.End</string>
+        <string />
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.Unload.End</string>
+        <string />
+        <string>Program.Sub.chkBckwrd_Click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("chkForward_Click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>Function.Intrinsic.Control.BlockEvents</string>
+        <string>Gui.Frm_Schedule.chkForward.Value(0)</string>
+        <string>Function.Intrinsic.Control.UnBlockEvents</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("chkForward_Click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4242_SF_OpenJobReview.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	Function.Intrinsic.Control.CallSub(unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.chkBckwrd_Click.End</string>
+        <string />
+        <string>Program.Sub.chkForward_Click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Main_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>'uncheck backward</string>
+        <string>Function.Intrinsic.Control.BlockEvents</string>
+        <string>Gui.Frm_Schedule.chkBckwrd.Value(0) </string>
+        <string>Function.Intrinsic.Control.UnBlockEvents</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("Main_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4242_SF_OpenJobReview.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	Function.Intrinsic.Control.CallSub(unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.chkForward_Click.End</string>
+        <string />
+        <string>Program.Sub.cmdSchedule_Click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("chkForward_Click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>v.Local.sParam.Declare(String)</string>
+        <string>v.Local.sSched.Declare(String)</string>
+        <string>'here we check to make sure they chose forward or backward. </string>
+        <string>Function.Intrinsic.Control.If(v.Screen.Frm_Schedule!chkBckwrd.Value,=,0, "AND",v.Screen.Frm_Schedule!chkForward.Value,=,0) </string>
+        <string>	f.Intrinsic.UI.Msgbox("Scheduling direction must be chosen. Please verify input.","Error....",16) </string>
+        <string>	Function.Intrinsic.Control.ExitSub</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Function.Intrinsic.Control.BlockEvents</string>
+        <string>gui.Frm_Schedule..Visible(False) </string>
+        <string />
+        <string>'else read the stuff to schedule. </string>
+        <string>F.Intrinsic.Control.If(v.Screen.Frm_Schedule!chkBckwrd.Value,=,1) 	</string>
+        <string>	v.Local.sSched.Set("B")</string>
+        <string>Function.Intrinsic.Control.Else </string>
+        <string>	v.Local.sSched.Set("F")</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>'schedule the job. </string>
+        <string>F.Global.APS.ScheduleJob(v.Global.sJob,v.Global.sSuffix,v.Local.sSched,v.Ambient.Date) </string>
+        <string>F.Intrinsic.Control.CallSub(cmdrefresh_click)</string>
+        <string>f.Intrinsic.Control.CallSub(optchecker)</string>
+        <string>Function.Intrinsic.Control.CallSub(enablecontols)</string>
+        <string>Function.Intrinsic.Control.UnBlockEvents</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("chkForward_Click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4242_SF_OpenJobReview.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	Function.Intrinsic.Control.CallSub(unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.cmdSchedule_Click.End</string>
+        <string />
+        <string>Program.Sub.Frm_Schedule_UnLoad.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Main_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>Function.Intrinsic.Control.CallSub(enablecontols)</string>
+        <string>Gui.Frm_Schedule..Visible(False)</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("Main_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4242_SF_OpenJobReview.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	Function.Intrinsic.Control.CallSub(unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.Frm_Schedule_UnLoad.End</string>
+        <string />
+        <string>Program.Sub.cmdWOSO_Click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmdWOSO_Click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>v.Local.stitles.declare(String)</string>
+        <string>v.Local.iwidths.Declare(long)</string>
+        <string>v.Local.sret.Declare(String)</string>
+        <string>v.Local.ssql.Declare(String)</string>
+        <string>v.Local.sorderno.Declare(string)</string>
+        <string>v.Local.sparam.Declare(String)</string>
+        <string />
+        <string>'This part was added Valentines day 2017. Customer was under the impression the program would allow him to schedule each line of a sales order. </string>
+        <string>'We added funcionality from an older script to allow them to select a sales order than call callwrapper 200800</string>
+        <string>'display a browser for sales orders to select one</string>
+        <string>Function.Intrinsic.String.Split("Order No*!*Customer*!*Date Order","*!*",variable.local.sTitles)</string>
+        <string>Function.Intrinsic.String.Split("1000*!*1200*!*800","*!*",variable.local.iWidths)</string>
+        <string>Function.Intrinsic.UI.Browser("Select a job","con","Select ORDER_NO, CUSTOMER, DATE_ORDER From V_ORDER_HEADER",Variable.Local.sTitles,Variable.Local.iWidths,Variable.Local.sRet)</string>
+        <string>Function.Intrinsic.Control.If(Variable.Local.sRet,"=","***CANCEL***")</string>
+        <string> 	Function.Intrinsic.UI.Msgbox("No order was selected!")</string>
+        <string>	f.Intrinsic.Control.ExitSub</string>
+        <string>Function.Intrinsic.Control.Else</string>
+        <string>	f.Intrinsic.UI.InvokeWaitDialog("Generating Work Orders...")</string>
+        <string>	'split the return and launch the callwrapper</string>
+        <string>	 Function.Intrinsic.String.Split(Variable.Local.sRet,"!*!",Variable.Local.sRet)</string>
+        <string>	v.Local.sorderno.Set(v.Local.sret(0))</string>
+        <string>	f.Intrinsic.String.Build("{0}!*!{1}!*!{2}","O",v.Local.sorderno,"NS",v.Local.sparam)</string>
+        <string>	F.Global.General.CallWrapperSync(200800,V.Local.sParam)</string>
+        <string>	f.Intrinsic.UI.CloseWaitDialog</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("cmdWOSO_Click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4242_SF_OpenJobReview.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	f.Intrinsic.Control.CallSub(unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.cmdWOSO_Click.End</string>
+        <string />
+        <string>Program.Sub.Comments.Start</string>
+        <string>${$0$}$GAB_4169_SF_OpenJobReview_GSS_Standard.g2u$}$Joey &amp; AGV$}$7/18/2016 9:03:10 AM$}$False</string>
+        <string>${$3$}$0$}$$}$0$}$-1$}$$}$12:00:00 AM$}$This will be a custom GAB script that will run from a custom Menu Item under Bill of Material -&gt; File -&gt; Custom Cobalt BOM Import.  The user will navigate to the xml file that needs to be loaded into Global Shop.  Once the xml is parsed there will be a search in Global Shop to see if a BOM already exists for that Part Number.  If one already exists a compare screen will display showing the differences between the two.  If one does not exist then the screen will display the BOM as it will be uploaded into Global Shop.  Any parts that are listed in the BOM that are not Inventory Parts will be highlighted in Yellow.  If there are any parts not in inventory the user will have the option to click the create Parts button to generate those parts in Global Shop.  If the BOM exists in Global shop then any differences on the new import will be highlighted in Red.  After the Parts have been created then the Upload button will upload and override any previous BOM for that part.</string>
+        <string>Program.Sub.Comments.End</string>
+        <string />
+        <string />
+      </Lines>
+    </TextStrings>
+  </TextSource>
+  <Scrolling>
+    <WindowOriginY>1518</WindowOriginY>
+    <Options>None</Options>
+  </Scrolling>
+  <Outlining>
+    <AllowOutlining>true</AllowOutlining>
+    <ImageSize>8</ImageSize>
+    <Ranges>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>0</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>158</Y>
+        </EndPoint>
+        <Text>Program.Sub.ScreenSU</Text>
+        <DisplayText>Program.Sub.ScreenSU</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>160</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>164</Y>
+        </EndPoint>
+        <Text>Program.Sub.Preflight</Text>
+        <DisplayText>Program.Sub.Preflight</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>166</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>202</Y>
+        </EndPoint>
+        <Text>Program.Sub.Main</Text>
+        <DisplayText>Program.Sub.Main</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>204</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>229</Y>
+        </EndPoint>
+        <Text>Program.Sub.frmMainWO_Resize</Text>
+        <DisplayText>Program.Sub.frmMainWO_Resize</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>231</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>260</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdRefresh_Click</Text>
+        <DisplayText>Program.Sub.cmdRefresh_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>262</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>392</Y>
+        </EndPoint>
+        <Text>Program.Sub.GsGCDueWO_RowCellClick</Text>
+        <DisplayText>Program.Sub.GsGCDueWO_RowCellClick</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>394</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>415</Y>
+        </EndPoint>
+        <Text>Program.Sub.setAnchors</Text>
+        <DisplayText>Program.Sub.setAnchors</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>417</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>450</Y>
+        </EndPoint>
+        <Text>Program.Sub.loadDTAllWO</Text>
+        <DisplayText>Program.Sub.loadDTAllWO</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>452</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>493</Y>
+        </EndPoint>
+        <Text>Program.Sub.loadDTDueWO</Text>
+        <DisplayText>Program.Sub.loadDTDueWO</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>495</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>651</Y>
+        </EndPoint>
+        <Text>Program.Sub.loadDVGAllWO</Text>
+        <DisplayText>Program.Sub.loadDVGAllWO</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>653</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>741</Y>
+        </EndPoint>
+        <Text>Program.Sub.GsGCAllWO_CellValueChanged</Text>
+        <DisplayText>Program.Sub.GsGCAllWO_CellValueChanged</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>743</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>837</Y>
+        </EndPoint>
+        <Text>Program.Sub.GsGCDueWO_CellValueChanged</Text>
+        <DisplayText>Program.Sub.GsGCDueWO_CellValueChanged</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>839</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>846</Y>
+        </EndPoint>
+        <Text>Program.Sub.optWiptoFG_Click</Text>
+        <DisplayText>Program.Sub.optWiptoFG_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>848</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>861</Y>
+        </EndPoint>
+        <Text>Program.Sub.optEdit_Click</Text>
+        <DisplayText>Program.Sub.optEdit_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>863</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>876</Y>
+        </EndPoint>
+        <Text>Program.Sub.optIssue_Click</Text>
+        <DisplayText>Program.Sub.optIssue_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>878</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>887</Y>
+        </EndPoint>
+        <Text>Program.Sub.optView_Click</Text>
+        <DisplayText>Program.Sub.optView_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>889</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>913</Y>
+        </EndPoint>
+        <Text>Program.Sub.optCHECKER</Text>
+        <DisplayText>Program.Sub.optCHECKER</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>915</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1045</Y>
+        </EndPoint>
+        <Text>Program.Sub.GsGCAllWO_RowCellClick1</Text>
+        <DisplayText>Program.Sub.GsGCAllWO_RowCellClick1</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1047</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1196</Y>
+        </EndPoint>
+        <Text>Program.Sub.loaddvgduewo</Text>
+        <DisplayText>Program.Sub.loaddvgduewo</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1198</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1224</Y>
+        </EndPoint>
+        <Text>Program.Sub.genTable</Text>
+        <DisplayText>Program.Sub.genTable</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1226</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1300</Y>
+        </EndPoint>
+        <Text>Program.Sub.CheckNote</Text>
+        <DisplayText>Program.Sub.CheckNote</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1302</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1331</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdNew_Click</Text>
+        <DisplayText>Program.Sub.cmdNew_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1333</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1353</Y>
+        </EndPoint>
+        <Text>Program.Sub.DisableControls</Text>
+        <DisplayText>Program.Sub.DisableControls</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1355</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1374</Y>
+        </EndPoint>
+        <Text>Program.Sub.EnableContols</Text>
+        <DisplayText>Program.Sub.EnableContols</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1376</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1414</Y>
+        </EndPoint>
+        <Text>Program.Sub.CheckPermissions</Text>
+        <DisplayText>Program.Sub.CheckPermissions</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1416</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1446</Y>
+        </EndPoint>
+        <Text>Program.Sub.CheckTable</Text>
+        <DisplayText>Program.Sub.CheckTable</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1448</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1516</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdExport_Click</Text>
+        <DisplayText>Program.Sub.cmdExport_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1518</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1530</Y>
+        </EndPoint>
+        <Text>Program.Sub.picGSSLogo_DblClick</Text>
+        <DisplayText>Program.Sub.picGSSLogo_DblClick</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1532</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1544</Y>
+        </EndPoint>
+        <Text>Program.Sub.frmWeb_UnLoad</Text>
+        <DisplayText>Program.Sub.frmWeb_UnLoad</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1546</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1558</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdGSS_Click</Text>
+        <DisplayText>Program.Sub.cmdGSS_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1560</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1572</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdServ_Click</Text>
+        <DisplayText>Program.Sub.cmdServ_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1574</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1586</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdUpd_Click</Text>
+        <DisplayText>Program.Sub.cmdUpd_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1588</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1603</Y>
+        </EndPoint>
+        <Text>Program.Sub.Unload</Text>
+        <DisplayText>Program.Sub.Unload</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1605</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1621</Y>
+        </EndPoint>
+        <Text>Program.Sub.chkBckwrd_Click</Text>
+        <DisplayText>Program.Sub.chkBckwrd_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1623</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1638</Y>
+        </EndPoint>
+        <Text>Program.Sub.chkForward_Click</Text>
+        <DisplayText>Program.Sub.chkForward_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1640</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1673</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdSchedule_Click</Text>
+        <DisplayText>Program.Sub.cmdSchedule_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1675</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1688</Y>
+        </EndPoint>
+        <Text>Program.Sub.Frm_Schedule_UnLoad</Text>
+        <DisplayText>Program.Sub.Frm_Schedule_UnLoad</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1690</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1731</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdWOSO_Click</Text>
+        <DisplayText>Program.Sub.cmdWOSO_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1731</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1736</Y>
+        </EndPoint>
+        <Text>Program.Sub.Comments</Text>
+        <DisplayText>Program.Sub.Comments</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+    </Ranges>
+  </Outlining>
+  <HyperText />
+  <Spelling />
+  <Braces />
+</SyntaxEdit>
